@@ -1,0 +1,55 @@
+/*每日品牌团-begin*/
+section .tuan .row .col-md-2 strong {
+	font-size: 20px;
+}
+
+section .tuan .row .col-md-2 a img {
+	padding: 0 10px;
+}
+
+section .tuan .col-md-4 {
+	width: 258px;
+	height: 425px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+section .tuan .row .col-md-8 {
+	margin-left: 40px;
+}
+
+section .tuan .col-md-6 {
+	width: 400px;
+	height: 205px;
+	margin-top: 10px;
+}
+
+section .tuan .item_info {
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	text-align: center;
+	width: 150px;
+}
+
+section .tuan .item_info .tit {
+	width: 150px;
+	font-size: 14px;
+	font-weight: 700;
+	height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+section .tuan .item_info .subtit {
+	margin-top: 5px;
+	max-height: 40px;
+	overflow: hidden;
+	line-height: 20px;
+}
+
+section .tuan ..item_info .sale {
+	margin-top: 18px;
+	line-height: 1;
+}
+/*每日品牌团-end*/

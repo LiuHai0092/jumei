@@ -1,0 +1,133 @@
+/*每日必看-begin*/
+
+section .center .everyday_look {
+	background-color: #F7F7F7;
+}
+
+section .center .everyday_look .row {
+	margin: 15px 0;
+}
+
+section .center .everyday_look .row .col-md-4 {
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+section .center .everyday_look .row .col-md-12 {
+	position: relative;
+	background-color: white;
+}
+
+section .center .everyday_look .row .col-md-12 .bimg {
+	margin-left: -150px;
+}
+
+section .center .everyday_look .row .details {
+	/*border: 1px solid green;
+				width: 382px;
+				height: 332px;
+				position: absolute;
+				top:0;
+				right: 20px;*/
+	position: absolute;
+	height: 332px;
+	width: 382px;
+	padding: 0 40px;
+	background: #fff;
+	top: 18px;
+	right: 18px;
+	box-shadow: 0 1px 4px #c5c5c5;
+	zoom: 1;
+	line-height: 1;
+}
+
+section .center .everyday_look .row .details a {
+	color: #767676;
+	line-height: 24px;
+	height: 142px;
+	display: block;
+	font-size: 16px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+section .center .everyday_look .row .details a em {
+	color: #ed145b;
+}
+
+section .center .everyday_look .row .details .price {
+	margin-top: 30px;
+	font-family: arial;
+	height: 45px;
+	position: relative;
+}
+
+section .center .everyday_look .row .details .price .shopping_car {
+	height: 36px;
+	font-size: 16px;
+	width: 106px;
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+
+section .center .everyday_look .row .details .price .shopping_car a {
+	display: inline-block;
+	height: 36px;
+	width: 106px;
+	line-height: 37px;
+	color: #fff;
+	background: #e81a62;
+	text-align: center;
+	font-size: 14px;
+}
+
+section .center .everyday_look .row .details .price .now_price {
+	font-size: 34px;
+	color: #000;
+	float: left
+}
+
+section .center .everyday_look .row .details .price .now_price em {
+	vertical-align: 6px;
+	font-size: 20px;
+	margin-right: 2px;
+}
+
+section .center .everyday_look .row .details .price .old_price {
+	float: left;
+	margin-left: 5px;
+}
+
+section .center .everyday_look .row .details .price .old_price span {
+	color: #727272;
+	position: absolute;
+	bottom: 14px;
+}
+
+section .center .everyday_look .row .details .price .old_price span em {
+	text-decoration: line-through;
+}
+
+section .center .everyday_look .row .details .cmmit {
+	color: #6f6f6f;
+	height: 40px;
+	margin-top: 5px;
+	line-height: 28px;
+}
+
+section .center .everyday_look .row .details .cmmit .cmmit_one {
+	float: left;
+}
+
+section .center .everyday_look .row .details .cmmit .cmmit_two {
+	padding-top: 10px;
+}
+
+section .center .everyday_look .row .details .cmmit .cmmit_two em {
+	font-size: 18px;
+	color: #b9966a;
+	vertical-align: middle;
+}
+/*每日必看-end*/

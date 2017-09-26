@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #6C6C6C;
+}
+
+a:hover {
+	color: #ED155B;
+	text-decoration: none;
+}
+
+
+/*清除浮动*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.center {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}

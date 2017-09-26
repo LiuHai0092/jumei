@@ -1,0 +1,94 @@
+/*今日疯抢-begin*/
+.home_top_tab {
+	/*height: 1458px;*/
+	width: 100%;
+	/*border: 1px solid red;*/
+	background: #F7F7F7;
+}
+
+.home_top_feng {
+	/*border: 1px solid black;*/
+	width: 466px;
+	height: 56px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.home_top_feng ul li .glyphicon {
+	display: inline-block;
+	top: 22px;
+	color: #666;
+	font-size: 43px;
+	right: 93px;
+	position: absolute;
+}
+
+.home_top_feng ul li .yuan {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #EA1D5D;
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	position: absolute;
+	right: 32px;
+	top: 9px;
+}
+
+.home_top_tab ul {
+	text-align: center;
+	display: inline-flex;
+}
+
+.home_top_tab ul .current {
+	/*border: 1px solid black;*/
+	width: 232px;
+	height: 44px;
+	background: #666666;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 44px;
+	cursor: pointer;
+	position: relative;
+}
+
+.home_top_tab ul .current1 {
+	border: 1px solid #999;
+	width: 232px;
+	height: 44px;
+	/*background: #666666;*/
+	font-size: 20px;
+	/*color: white;*/
+	text-align: center;
+	line-height: 44px;
+	cursor: pointer;
+	position: relative;
+}
+
+.tab_box {
+	/*border: 1px solid black;*/
+	height: 1392;
+	width: 100%;
+}
+
+.tab_box .tab_box_tu {
+	/*border: 1px solid blue;*/
+	width: 1111px;
+	height: 1195px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.tab_box .tab_box_tu ul li {
+	padding: 9px 10px;
+}
+
+.home_top_tab .home_bottom {
+	background: url(../img/54101_1920_80_001-web.jpg) no-repeat;
+	/*width: 1090px;*/
+	height: 85px;
+	margin-left: -390px;
+}
+/*今日疯抢-end*/
