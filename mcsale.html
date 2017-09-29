@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>母婴特卖</title>
+		<style>
+			.nav_right {
+				position: fixed;
+				right: 0;
+				width: 35px;
+				height: 100%;
+				background: #444851;
+				z-index: 99;
+			}
+			
+			.nav_right>ul {
+				list-style: none;
+				height: 105px;
+				top: 20%;
+				/*margin-top: -52px;*/
+				position: relative;
+			}
+			
+			.nav_right>ul li {
+				display: block;
+				height: 35px;
+				text-align: center;
+				position: relative;
+				line-height: 35px;
+			}
+			
+			.nav_right>ul .login i {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				background-image: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png);
+				vertical-align: middle;
+				background-repeat: no-repeat;
+				margin-top: -5px;
+			}			
+			.nav_right>ul .s_car {
+				height: 120px;
+				/*text-align: center;
+				position: relative;				*/
+			}
+			
+			.nav_right>ul .s_car span {
+				color: white;
+				font-size: 12px;
+				width: 21px;
+				display: inline-block;
+				line-height: 22px;
+			}
+			
+			.nav_right>ul .s_car i {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -28px no-repeat;
+				vertical-align: middle;
+				margin-top: -5px;
+			}
+			
+			.nav_right>ul .monney i {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -56px no-repeat;
+				vertical-align: middle;
+				margin-top: -5px;
+			}
+			
+			.nav_right>ul .wish i {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -84px no-repeat;
+				vertical-align: middle;
+				margin-top: -5px;
+			}
+			
+			.nav_right>ul .Footprints i {
+				display: inline-block;
+				height: 26px;
+				width: 20px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -110px no-repeat;
+				vertical-align: middle;
+				margin-top: -5px;
+			}
+			
+			.nav_right>ul .QR_code {}
+			
+			.nav_right>ul .QR_code i {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -302px no-repeat;
+				vertical-align: middle;
+				margin-top: -5px;
+			}
+			
+			.nav_right>ul .service i {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -174px no-repeat;
+				vertical-align: middle;
+				margin-top: -5px;
+			}
+			
+			.hit_w {
+				width: 100px;
+				height: 35px;
+				background-color: #ea1d5d;
+				margin-left: -150px;
+				position: absolute;
+				top: 0;
+				/*display: none;*/
+			}
+			.nav_right>ul li:hover i {
+				background-position: -33px, 0;
+			}
+			.sbig{
+				display: inline-block;
+				height: 10px;
+				width: 10px;
+				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -233px no-repeat;
+				vertical-align: middle;
+			}
+		</style>
+		<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/public.css" type="text/css" />
+		<!--头部样式-->
+		<link href="css/header.css" rel="stylesheet" type="text/css" />
+		<!--搜索样式-->
+		<link href="css/nav.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<!--右侧导航-->
+		<div class="nav_right ">
+			<ul>
+				<li class="login">
+					<i></i>
+					<div></div>
+				</li>
+				<li class="s_car ">
+					<i></i><br/><span>购<br/>物<br/>车</span>
+					<div></div>
+				</li>
+				<li class="monney">
+					<i></i>
+					<div class="hit_w"><span class="sbig"></span><span>我的财产</span></div>
+				</li>
+				<li class="wish">
+					<i></i>
+					<div class="hit_w"><span class="sbig"></span><span>我的心愿单</span></div>
+				</li>
+				<li class="Footprints">
+					<i></i>
+					<div class="hit_w"><span class="sbig"></span><span>我看过的</span></div>
+				</li>
+				<li class="QR_code">
+					<i></i>
+					<div></div>
+				</li>
+				<li class="service">
+					<i></i>
+					<div class="hit_w"><span class="sbig"></span><span>客服中心</span></div>
+				</li>
+			</ul>
+		</div>
+		<!--头部-->
+		<header>
+			<div class="row clearfix ">
+				<div class="col-md-3 ">
+					<ul class="top_nav_left ">
+						<li style="font-size: 14px;color: #6C6C6C; ">欢迎来到聚美！</li>
+						<li>
+							<a href="login.html">请登录</a>
+						</li>
+						<li>
+							<a href="registered.html">快速注册</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 "></div>
+				<div class="col-md-6 ">
+					<ul class="top_nav_right ">
+						<li>
+							<a href="# ">正品保证</a>
+						</li>
+						<li>
+							<a href="# ">订单查询</a>
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-heart " aria-hidden="true "></span>
+							<a href="# ">收藏的品牌</a>
+						</li>
+						<li>
+							<a href="# ">我的聚美</a><span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span>
+							<ul class="top_nav_right_one ">
+								<li>
+									<a href="# ">我的订单</a>
+								</li>
+								<li>
+									<a href="# ">我的现金劵</a>
+								</li>
+								<li>
+									<a href="# ">我的红包</a>
+								</li>
+								<li>
+									<a href="# ">我的余额</a>
+								</li>
+								<li>
+									<a href="# ">我的提现退款</a>
+								</li>
+								<li>
+									<a href="# ">我的收藏</a>
+								</li>
+								<li>
+									<a href="# ">我的心愿单</a>
+								</li>
+								<li>
+									<a href="# ">会员中心</a>
+								</li>
+								<li>
+									<a href="# ">礼品卡兑换</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a style="color:#ED155B ; " href="# "><span class="glyphicon glyphicon-phone " aria-hidden="true "></span>手机聚美</a>
+						</li>
+						<li>
+							<a href="# ">更多</a><span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span>
+							<ul class="top_nav_right_two ">
+								<li>
+									<a href="# ">邀请好友</a>
+								</li>
+								<li>
+									<a href="# ">加入收藏</a>
+								</li>
+								<li>
+									<a href="# ">新浪微博</a>
+								</li>
+								<li>
+									<a href="# ">聚美微信</a>
+								</li>
+								<li>
+									<a href="# ">百度贴吧</a>
+								</li>
+								<li>
+									<a href="# ">腾讯微博</a>
+								</li>
+								<li>
+									<a href="# ">人人公众主页</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--搜索-->
+		<nav>
+			<!--搜索框，购物车-->
+			<div class="nav_search clearfix ">
+				<div class="row " style="height: 120px; ">
+					<div class="col-md-3 ">
+						<a href=# " "></a>
+					</div>
+					<div class="col-md-7 ">
+						<div>
+							<form action="" method="get">
+								<input class="search " type="search " value=" " /><button class="searsub " type="submit " value="搜索 ">搜索</button></button>
+							</form>
+							<ul>
+								<li>
+									<a href="# ">保湿</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">面膜</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">洗面奶</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">蛋糕</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">香水</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">眼霜</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">口红</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">护肤套装</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">BB霜</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href=" ">咖啡</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2 ">
+						<a href=" "><img src="img/cart.gif " />去购物车结算<span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span></a>
+					</div>
+				</div>
+			</div>
+			<!--导航-->
+			<div class="nav_center ">
+				<div class="row ">
+					<div class="col-md-8 ">
+						<ul>
+							<li>
+								<a href=" ">首页</a>
+							</li>
+							<li>
+								<a href=" ">极速免税店</a>
+							</li>
+							<li>
+								<a href=" ">母婴特卖</a>
+							</li>
+							<li>
+								<a href=" ">美妆商城</a><span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span>
+								<div>
+									<!--待完善-->
+								</div>
+							</li>
+							<li>
+								<a href=" ">国际轻奢</a>
+							</li>
+							<li>
+								<a href=" ">服装运动</a>
+							</li>
+							<li>
+								<a href=" ">鞋包配饰</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 ">
+						<div>
+							<a href=" "><img src="img/z_01new.jpg " /></a>
+							<a href=" "><img src="img/z02.jpg " /></a>
+							<a href=" "><img src="img/z03.jpg " /> </a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--轮播图片-->
+			<div class="nav_bg ">
+				<div class="row ">
+					<div class="col-md-12 ">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<a href=""><img src="img/154812_1920_350_003-web.jpg" alt="..." style="height: 350px;"></a>
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<a href=""><img src="img/156144_1920_350_003-web.jpg" alt="jsLogo" style="height: 350px;"></a>
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<a href="http://hd.jumei.com/act/25-1402-148655-my_huggies_20170927_pc.html?from=pop_null_index_baby_top_banner&lo=3520&mat=155986"><img src="img/155986_1920_350_002-web.jpg" alt="mcLogo" style="height: 350px;"></a>
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<a href=""><img src="img/156014_1920_350_002-web.jpg" alt="..." style="height: 350px;"></a>
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<a href=""><img src="img/156150_1920_350_002-web.jpg" alt="..." style="height: 350px;"></a>
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<ul>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+				<li>
+					<i></i>
+					<div></div>
+				</li>
+			</ul>
+			</div>
+		</nav>
+
+		<!--主体部分-->
+		<section>
+
+		</section>
+		<script type="text/javascript" src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="plugin/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+//			$(".nav_right>ul li").hover(function() {
+//				$(".nav_right>ul .hit_w").hide().stop().css({
+//					"margin-left": "-150px"
+//				});
+//				//显示操作
+//				$(this).find(".hit_w").fadeIn().animate({
+//					"margin-left": "-100px"
+//				}, 200);
+//			}, function() {
+//				//隐藏操作
+//				$(this).find(".hit_w").animate({"margin-left": "-150px"}).fadeOut();
+//			});
+		</script>
+	</body>
+
+</html>
