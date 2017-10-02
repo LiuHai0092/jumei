@@ -1,0 +1,282 @@
+/*母婴特卖主体部分-begin*/
+.baby_body {
+	min-width: 1090px;
+	/*position: relative;*/
+	background: #EFF8F5;
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+}
+
+.baby_body_one {
+	background: url(http://a3.jmstatic.com/842409ccd673110f/pop_top_bg.jpg) center top no-repeat;
+	overflow: hidden;
+	min-width: 1090px;
+	/*height: 440px;*/
+}
+
+.baby_body_one>.row {
+	margin-top: 15px;
+}
+
+.baby_body_one>.row .col-md-6:first-child {
+	position: relative;
+	left: 150px;
+}
+
+.baby_body_tit {
+	text-align: center;
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 20px;
+}
+
+.baby_body_two {
+	background: url(http://a0.jmstatic.com/8ce6764a53bfc09c/pop_center_bg.jpg) #eff8f5 center top no-repeat;
+	overflow: hidden;
+	min-width: 1090px;
+	/*height: 440px;*/
+}
+
+.baby_body_two>.row {
+	margin-top: 15px;
+}
+
+.baby_body_two>.row .col-md-6:first-child {
+	position: relative;
+	left: 150px;
+}
+
+.everyday_must_look {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.everyday_must_look>.everyday_must_look_title {
+	height: 30px;
+	margin-bottom: 8px;
+	background: url(http://a2.jmstatic.com/cb464aa0abe18bd8/trans_new.png) 336px top no-repeat;
+	text-align: center;
+}
+
+.everyday_must_look>.everyday_must_look_tit {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.everyday_must_look>.row .edml_left {
+	position: relative;
+	height: 245px;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.everyday_must_look>.row .edml_left_word {
+	display: inline-block;
+	width: 200px;
+	height: 245px;
+	background-color: white;
+}
+
+.everyday_must_look>.row .edml_left_img {
+	display: inline-block;
+	width: 500px;
+	height: 245px;
+	position: relative;
+	left: -4px;
+	top: -61px;
+	/*background: url(http://p5.jmstatic.com/jmstore/image/000/001/1819_std/58f86bb9be566_500_245.jpg?1506565017)no-repeat;*/
+}
+
+.everyday_must_look>.row .edml_left_word dl dt {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.everyday_must_look>.row .edml_left_word dl dt img {
+	width: 80px;
+	height: 40px;
+}
+
+.everyday_must_look>.row .edml_left_word dl dd {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+.everyday_must_look>.row .edml_left_time {
+	width: 700px;
+	height: 26px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	overflow: hidden;
+	background: rgba(0, 0, 0, .32);
+	z-index: 3;
+}
+
+.everyday_must_look>.row .edml_left .title {
+	display: inline-block;
+	width: 200px;
+	height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	line-height: 24px;
+}
+
+.everyday_must_look>.row .edml_left .new_icon {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 0;
+	right: auto;
+	background: url(http://a2.jmstatic.com/cb464aa0abe18bd8/trans_new.png) -59px -31px no-repeat;
+}
+
+.everyday_must_look>.row .edml_left .old_icon {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 0;
+	right: auto;
+	background: url(http://a2.jmstatic.com/cb464aa0abe18bd8/trans_new.png) 0px -31px no-repeat;
+}
+
+.everyday_must_look>.row .col-md-3 {
+	width: 240px;
+}
+
+.everyday_must_look>.row .col-md-3 .edml_right_title {
+	width: 100%;
+	height: 36px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 36px;
+}
+
+.everyday_must_look>.row .col-md-3 .edml_right_title>span {
+	color: white;
+	font-size: 16px;
+}
+
+.everyday_must_look>.row .col-md-3 .edml_right_day {
+	width: 100%;
+	height: 34px;
+}
+
+.everyday_must_look>.row .col-md-3>.edml_right_body>.row {
+	margin-bottom: 20px;
+}
+
+.everyday_must_look>.row .col-md-3>.edml_right_body>.row>.col-md-6 {
+	text-align: center;
+}
+
+.everyday_must_look>.row .col-md-3>.edml_right_body {
+	background-color: white;
+}
+
+.everyday_must_look>.row .col-md-3>.edml_right_body>.row>.col-md-6>img {
+	display: inline-block;
+	width: 70px;
+	height: 35px;
+}
+
+.edml_right_body>.row>.col-md-6:hover .dl {
+	display: block;
+}
+
+.everyday_must_look>.row .col-md-3>.edml_right_body>.row>.col-md-6 {
+	position: relative;
+}
+
+.dl {
+	width: 338px;
+	background-color: white;
+	border: 1px solid #EFF8F5;
+	box-shadow: 0px 0px 1px 1px #EFF8F5;
+	position: absolute;
+	left: -314px;
+	top: 0px;
+	z-index: 100;
+	display: none;
+}
+
+.everyday_must_look>.row .col-md-3>.edml_right_body>.row>.col-md-6>dl>dt {
+	margin-top: 10px;
+}
+
+.everyday_must_look>.row .edml_right_body>.row>.col-md-6>dl>dd {
+	font-size: 12px;
+	text-align: left;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+}
+
+.baby_body>.comingsoon {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.comingsoon_title {
+	height: 30px;
+	background: url(http://a2.jmstatic.com/cb7627247ba1fed2/comming_soon_bg.png) center top no-repeat;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.comingsoon>.comingsoon_body .col-md-4 {
+	cursor: pointer;
+	position: relative;
+}
+
+.comingsoon>.comingsoon_body dt img {
+	display: inline-block;
+	width: 308px;
+	height: 200px;
+}
+
+.comingsoon>.comingsoon_body dd {
+	height: 60px;
+	width: 308px;
+	line-height: 60px;
+	background-color: white;
+}
+
+.comingsoon>.comingsoon_body dd img {
+	width: 80px;
+	height: 40px;
+}
+
+.comingsoon>.comingsoon_body dd span {
+	font-size: 12px;
+	float: right;
+	margin-right: 15px;
+}
+
+.comingsoon>.comingsoon_body .stitle {
+	width: 308px;
+	height: 26px;
+	position: absolute;
+	bottom: 80px;
+	left: 15px;
+	overflow: hidden;
+	background: rgba(0, 0, 0, .32);
+	z-index: 99;
+}
+
+.comingsoon>.comingsoon_body .stitle .stitle-word {
+	font-size: 12px;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	letter-spacing: 2px;
+}

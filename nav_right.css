@@ -1,0 +1,269 @@
+/*右侧导航条*/
+
+.nav_right {
+	position: fixed;
+	right: 0;
+	width: 35px;
+	height: 100%;
+	background: #444851;
+	z-index: 99;
+}
+
+.nav_right>ul {
+	list-style: none;
+	height: 105px;
+	top: 20%;
+	/*margin-top: -52px;*/
+	position: relative;
+}
+
+.nav_right>ul li {
+	display: block;
+	height: 35px;
+	text-align: center;
+	position: relative;
+	line-height: 35px;
+	margin: 10px 0;
+}
+
+.nav_right>ul .login i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-image: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png);
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	margin-top: -5px;
+}
+
+.nav_right>ul li:hover .login_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px 0px no-repeat;
+}
+
+.nav_right>ul .s_car {
+	height: 120px;
+	/*text-align: center;
+				position: relative;				*/
+}
+
+.nav_right>ul .s_car span {
+	color: white;
+	font-size: 12px;
+	width: 21px;
+	display: inline-block;
+	line-height: 22px;
+}
+
+.nav_right>ul .s_car i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -28px no-repeat;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.nav_right>ul li:hover .s_car_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -28px no-repeat;
+}
+
+.nav_right>ul .money i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -56px no-repeat;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.nav_right>ul li:hover .money_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -56px no-repeat;
+}
+
+.nav_right>ul .wish i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -84px no-repeat;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.nav_right>ul li:hover .wish_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -84px no-repeat;
+}
+
+.nav_right>ul .Footprints i {
+	display: inline-block;
+	height: 26px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -110px no-repeat;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.nav_right>ul li:hover .Footprints_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -110px no-repeat;
+}
+
+.nav_right>ul .QR_code {
+	margin-top: 30px;
+}
+
+.nav_right>ul .QR_code i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -302px no-repeat;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.nav_right>ul .QR_code .QR_code_img {
+	height: 180px;
+	width: 160px;
+	position: absolute;
+	left: -154px;
+	top: -140px;
+	display: none;
+}
+
+.nav_right>ul li:hover .QR_code_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -302px no-repeat;
+}
+
+.QR_sbig {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -253px no-repeat;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: 150px;
+	left: 154px;
+}
+
+.nav_right>ul li:hover .QR_code_img {
+	display: block;
+}
+
+.nav_right>ul .service i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -174px no-repeat;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.nav_right>ul li:hover .service_i {
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -174px no-repeat;
+}
+
+.hit_w {
+	width: 100px;
+	height: 35px;
+	background-color: #444851;
+	margin-left: -150px;
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+.nav_right>ul li:hover {
+	background-color: #ED145B;
+}
+
+.nav_right>ul li:hover i {
+	background-position: -33px, 0;
+	cursor: pointer;
+}
+
+.sbig {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -233px no-repeat;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: 12px;
+	left: 100px;
+}
+
+.hit_w>span {
+	color: #d8d8d8;
+	font-size: 12px;
+}
+
+.login_div {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	left: -300px;
+	top: 0px;
+	display: none;
+	background-color: #FFFFFF;
+	border-radius: 10px 0 0 10px;
+	box-shadow: -2px -2px #E8E8E8;
+}
+
+.nav_right .login:hover .login_div {
+	display: block;
+}
+
+.sbig_two {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -253px no-repeat;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: 12px;
+	left: 300px;
+}
+
+.login_div .login_div_close input {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -272px no-repeat;
+	/*vertical-align: middle;
+				margin-top: -5px;*/
+	position: relative;
+	left: 130px;
+	border: 0px;
+}
+
+.login_div>.row>.col-md-12 img {
+	display: inline-block;
+	width: 62px;
+	height: 62px;
+	border-radius: 31px;
+	border: 0;
+}
+
+.login_div>.row:last-child {
+	/*margin-top: 10px;*/
+	border-top: 1px dotted #E8E8E8;
+	width: 100%;
+	position: relative;
+	left: 15px;
+}
+
+.login_div>.row:last-child .col-md-12 {
+	margin-top: 10px;
+	left: -5px;
+}
+
+.login_div>.row:last-child .col-md-12 button:last-child {
+	margin-left: 10px;
+}
+
+.login_div>.row:last-child .col-md-12 button {
+	display: inline-block;
+	width: 100px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+}

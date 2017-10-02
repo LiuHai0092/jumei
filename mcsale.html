@@ -4,265 +4,23 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>母婴特卖</title>
-		<style>
-			.nav_right {
-				position: fixed;
-				right: 0;
-				width: 35px;
-				height: 100%;
-				background: #444851;
-				z-index: 99;
-			}
+		<style type="text/css">
 			
-			.nav_right>ul {
-				list-style: none;
-				height: 105px;
-				top: 20%;
-				/*margin-top: -52px;*/
-				position: relative;
-			}
-			
-			.nav_right>ul li {
-				display: block;
-				height: 35px;
-				text-align: center;
-				position: relative;
-				line-height: 35px;
-				margin: 10px 0;
-			}
-			
-			.nav_right>ul .login i {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background-image: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png);
-				vertical-align: middle;
-				background-repeat: no-repeat;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul li:hover .login_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px 0px no-repeat;
-			}
-			
-			.nav_right>ul .s_car {
-				height: 120px;
-				/*text-align: center;
-				position: relative;				*/
-			}
-			
-			.nav_right>ul .s_car span {
-				color: white;
-				font-size: 12px;
-				width: 21px;
-				display: inline-block;
-				line-height: 22px;
-			}
-			
-			.nav_right>ul .s_car i {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -28px no-repeat;
-				vertical-align: middle;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul li:hover .s_car_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -28px no-repeat;
-			}
-			
-			.nav_right>ul .money i {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -56px no-repeat;
-				vertical-align: middle;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul li:hover .money_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -56px no-repeat;
-			}
-			
-			.nav_right>ul .wish i {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -84px no-repeat;
-				vertical-align: middle;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul li:hover .wish_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -84px no-repeat;
-			}
-			
-			.nav_right>ul .Footprints i {
-				display: inline-block;
-				height: 26px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -110px no-repeat;
-				vertical-align: middle;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul li:hover .Footprints_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -110px no-repeat;
-			}
-			
-			.nav_right>ul .QR_code {
-				margin-top: 30px;
-			}
-			
-			.nav_right>ul .QR_code i {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -302px no-repeat;
-				vertical-align: middle;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul .QR_code .QR_code_img {
-				height: 180px;
-				width: 160px;
-				position: absolute;
-				left: -154px;
-				top: -140px;
-			}
-			
-			.nav_right>ul li:hover .QR_code_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -302px no-repeat;
-			}
-			
-			.nav_right>ul .service i {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -174px no-repeat;
-				vertical-align: middle;
-				margin-top: -5px;
-			}
-			
-			.nav_right>ul li:hover .service_i {
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) -33px -174px no-repeat;
-			}
-			
-			.hit_w {
-				width: 100px;
-				height: 35px;
-				background-color: #444851;
-				margin-left: -150px;
-				position: absolute;
-				top: 0;
-				display: none;
-			}
-			
-			.nav_right>ul li:hover {
-				background-color: #ED145B;
-			}
-			
-			.nav_right>ul li:hover i {
-				background-position: -33px, 0;
-				cursor: pointer;
-			}
-			
-			.sbig {
-				display: inline-block;
-				height: 10px;
-				width: 10px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -233px no-repeat;
-				vertical-align: middle;
-				position: absolute;
-				margin-top: 12px;
-				left: 100px;
-			}
-			
-			.hit_w>span {
-				color: #d8d8d8;
-				font-size: 12px;
-			}
-			
-			.login_div {
-				position: absolute;
-				width: 300px;
-				height: 200px;
-				/*border: 1px solid red;*/
-				left: -300px;
-				top: 0px;
-				display: none;
-				background-color: #FFFFFF;
-				border-radius: 10px 0 0 10px;
-				box-shadow: -2px -2px #E8E8E8;
-			}
-			
-			.nav_right .login:hover .login_div {
-				display: block;
-			}
-			
-			.sbig_two {
-				display: inline-block;
-				height: 10px;
-				width: 10px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -253px no-repeat;
-				vertical-align: middle;
-				position: absolute;
-				margin-top: 12px;
-				left: 300px;
-			}
-			
-			.login_div .login_div_close input {
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-				background: url(http://a5.jmstatic.com/2f861dd916ce9a15/ibar_sprites.png) 0px -272px no-repeat;
-				/*vertical-align: middle;
-				margin-top: -5px;*/
-				position: relative;
-				left: 130px;
-				border: 0px;
-			}
-			
-			.login_div>.row>.col-md-12 img {
-				display: inline-block;
-				width: 62px;
-				height: 62px;
-				border-radius: 31px;
-				border: 0;
-			}
-			
-			.login_div>.row:last-child {
-				/*margin-top: 10px;*/
-				border-top: 1px dotted #E8E8E8;
-				width: 100%;
-				position: relative;
-				left: 15px;
-			}
-			
-			.login_div>.row:last-child .col-md-12 {
-				margin-top: 10px;
-				left: -5px;
-			}
-			
-			.login_div>.row:last-child .col-md-12 button:last-child {
-				margin-left: 10px;
-			}
-			
-			.login_div>.row:last-child .col-md-12 button {
-				display: inline-block;
-				width: 100px;
-				height: 24px;
-				line-height: 24px;
-				font-size: 12px;
-			}
 		</style>
+		<!--引入bootStrap工具-->
 		<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css" />
+		<!--公共样式-->
 		<link rel="stylesheet" href="css/public.css" type="text/css" />
 		<!--头部样式-->
 		<link href="css/header.css" rel="stylesheet" type="text/css" />
 		<!--搜索样式-->
 		<link href="css/nav.css" rel="stylesheet" type="text/css" />
+		<!--右侧导航条-->
+		<link rel="stylesheet" href="nav_right.css" type="text/css" />
+		<!--主体部分-->
+		<link rel="stylesheet" href="css/mcsale_body.css" />
+		<!--底部-->
+		<link rel="stylesheet" href="css/footer.css" />
 	</head>
 
 	<body>
@@ -310,7 +68,8 @@
 				</li>
 				<li class="QR_code">
 					<i class="QR_code_i"></i>
-					<div class="QR_code_img"><img src="img/qrcode.png"></div>
+					<div class="QR_code_img"><span class="QR_sbig"></span>
+						<img src="img/qrcode.png"></div>
 				</li>
 				<li class="service">
 					<i class="service_i"></i>
@@ -573,62 +332,675 @@
 					</div>
 				</div>
 			</div>
-
-			<ul>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-				<li>
-					<i></i>
-					<div></div>
-				</li>
-			</ul>
-			</div>
 		</nav>
-
 		<!--主体部分-->
 		<section>
+			<div class="baby_body">
+				<div class="baby_body_one">
+					<div class="row">
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3521/140234_472_170_003-web.jpg?1502942200" /></a>
+						</div>
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3521/140248_472_170_003-web.jpg?1504078900" /></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3521/140270_472_170_006-web.jpg?1503473651" /></a>
+						</div>
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3521/140264_472_170_003-web.jpg?1502942249" /></a>
+						</div>
+					</div>
+					<h2 class="baby_body_tit">10点品牌团 今日推荐</h2>
+				</div>
+				<div class="baby_body_two">
+					<div class="row">
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3536/155574_472_170_002-web.jpg?1506080474" /></a>
+						</div>
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3536/155938_472_170_002-web.jpg?1506328346" /></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3536/155990_472_170_002-web.jpg?1506574331" /></a>
+						</div>
+						<div class="col-md-6">
+							<a href=""><img src="http://p0.jmstatic.com/banner/3536/156136_472_170_002-web.jpg?1506413027" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="everyday_must_look">
+					<div class="everyday_must_look_title"></div>
+					<p class="everyday_must_look_tit"><span>每天10点，恭候莅临</span> | 正品保证</p>
+					<div class="row">
+						<div class="col-md-9">
+							<div class="edml_left">
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/6596.jpg"/></dt>
+										<dd style="font: 14px bold;">花王天天特卖</dd>
+										<dd>单包低至89元</dd>
+										<dd>9月28日-10月10日</dd>
+									</dl>
+								</div>
+								<!--<div class="edml_left_one_img"></div>-->
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/001/1819_std/58f86bb9be566_500_245.jpg?1506565017" />
+
+								<div class="edml_left_time">
+									<div class="title">日本直采 保税发货</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+							<div class="edml_left">
+								<div class="new_icon"></div>
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/6313.jpg"/></dt>
+										<dd style="font: 14px bold;">秋季新品 低价疯抢</dd>
+										<dd>秋款上新 25元起</dd>
+										<dd>10月1日-10月6日</dd>
+									</dl>
+								</div>
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/003/3167_std/59cdee41710cc_500_245.jpg?1506676988" />
+								<div class="edml_left_time">
+									<div class="title">专注健康童鞋28年</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+							<div class="edml_left">
+								<div class="old_icon"></div>
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/10953.jpg"/></dt>
+										<dd style="font: 14px bold;">乐孕品牌国庆专场</dd>
+										<dd>满2件打8.5折</dd>
+										<dd>9月27日-10月2日</dd>
+									</dl>
+								</div>
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/005/5305_std/59c9f139363e6_500_245.jpg?1506508187" />
+								<div class="edml_left_time">
+									<div class="title">喜迎国庆 钜惠放价</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+							<div class="edml_left">
+								<div class="new_icon"></div>
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/14727.jpg"/></dt>
+										<dd style="font: 14px bold;">萌宝佳节特惠狂欢</dd>
+										<dd>全场包邮直降 12.9元起</dd>
+										<dd>10月1日-10月6日</dd>
+									</dl>
+								</div>
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/006/6321_std/59ca259643187_500_245.jpg?1506743930" />
+								<div class="edml_left_time">
+									<div class="title">萌宝驾到 佳节hight翻天</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+							<div class="edml_left">
+								<div class="new_icon"></div>
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/13366.jpg"/></dt>
+										<dd style="font: 14px bold;">勾勾手玩具10月大促</dd>
+										<dd>满159减20 188减30</dd>
+										<dd>10月1日-10月6日</dd>
+									</dl>
+								</div>
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/003/3699_std/59cc972e8ebed_500_245.jpg?1506582530" />
+								<div class="edml_left_time">
+									<div class="title">益智成长 勾勾手相伴</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+							<div class="edml_left">
+								<div class="new_icon"></div>
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/15982.jpg"/></dt>
+										<dd style="font: 14px bold;">费雪玩具专场</dd>
+										<dd>费雪玩具满399减100</dd>
+										<dd>10月1日-10月6日</dd>
+									</dl>
+								</div>
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/005/5965_std/59ccae8f70ca3_500_245.jpg?1506587345" />
+								<div class="edml_left_time">
+									<div class="title">天赋成长 费雪相伴</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+							<div class="edml_left">
+								<div class="new_icon"></div>
+								<div class="edml_left_word">
+									<dl>
+										<dt><img src="http://p5.jmstatic.com/brand/logo_180/14692.jpg"/></dt>
+										<dd style="font: 14px bold;">母乳喂养好帮手</dd>
+										<dd>母乳时代满199减50</dd>
+										<dd>10月1日-10月6日</dd>
+									</dl>
+								</div>
+								<img class="edml_left_img" src="http://p5.jmstatic.com/jmstore/image/000/005/5779_std/59cdb9671fe9f_500_245.jpg?1506760058" />
+								<div class="edml_left_time">
+									<div class="title">情满中秋 礼惠国庆</div>
+									<div class="time_box"></div>
+								</div>
+								<a href=""></a>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="edml_right_title">
+								<span>品牌预告FORESHOW</span>
+							</div>							
+							<div class="edml_right_body">
+								<div class="edml_right_day">日期</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p4.jmstatic.com/brand/logo_180/11256.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+											<dd>十月天使品牌专场</dd>
+											<dd>最高满299减80</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p0.jmstatic.com/brand/logo_180/9401.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2002_std/59c8956c44073_310_200.jpg?1506413110"/></dt>
+											<dd>美泰玩具联合专场</dd>
+											<dd>美泰联合全场19元起</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/6697.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6321_std/59c9c1c4b5202_310_200.jpg?1506754027"/></dt>
+											<dd>德国爱他美专场</dd>
+											<dd>单罐低至89</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/8761.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/005/5869_std/59c9f64faaa65_310_200.jpg?1506578548"/></dt>
+											<dd>新生儿用品专场</dd>
+											<dd>低至9.9元</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p4.jmstatic.com/brand/logo_180/11256.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+											<dd>十月天使品牌专场</dd>
+											<dd>最高满299减80</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p0.jmstatic.com/brand/logo_180/9401.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2002_std/59c8956c44073_310_200.jpg?1506413110"/></dt>
+											<dd>美泰玩具联合专场</dd>
+											<dd>美泰联合全场19元起</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/6697.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6321_std/59c9c1c4b5202_310_200.jpg?1506754027"/></dt>
+											<dd>德国爱他美专场</dd>
+											<dd>单罐低至89</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/8761.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/005/5869_std/59c9f64faaa65_310_200.jpg?1506578548"/></dt>
+											<dd>新生儿用品专场</dd>
+											<dd>低至9.9元</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p4.jmstatic.com/brand/logo_180/11256.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+											<dd>十月天使品牌专场</dd>
+											<dd>最高满299减80</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p0.jmstatic.com/brand/logo_180/9401.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2002_std/59c8956c44073_310_200.jpg?1506413110"/></dt>
+											<dd>美泰玩具联合专场</dd>
+											<dd>美泰联合全场19元起</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/6697.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6321_std/59c9c1c4b5202_310_200.jpg?1506754027"/></dt>
+											<dd>德国爱他美专场</dd>
+											<dd>单罐低至89</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/8761.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/005/5869_std/59c9f64faaa65_310_200.jpg?1506578548"/></dt>
+											<dd>新生儿用品专场</dd>
+											<dd>低至9.9元</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="edml_right_day">日期</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p4.jmstatic.com/brand/logo_180/15310.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/005/5532_std/59bf337c18415_310_200.jpg?1506483333"/></dt>
+											<dd>贝儿欣中秋专场</dd>
+											<dd>低至25元起</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p1.jmstatic.com/brand/logo_180/8800.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/001/1824_std/59cc716857200_310_200.jpg?1506582493"/></dt>
+											<dd>HelloKitty中秋专场</dd>
+											<dd>全场满199减50,299减100</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="http://p4.jmstatic.com/brand/logo_180/13141.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/003/3529_std/59cc9d0c3641c_310_200.jpg?1506587236"/></dt>
+											<dd>叮唛秋款上新</dd>
+											<dd>满199减50,299减100</dd>
+										</dl>
+									</div>
+									<div class="col-md-6">
+										<img src="http://p3.jmstatic.com/brand/logo_180/9534.jpg">
+										<dl class="dl">
+											<dt><img src="http://p0.jmstatic.com/jmstore/image/000/003/3783_std/59cddf51ccdf1_310_200.jpg?1506667171"/></dt>
+											<dd>乐乐趣发声益智读物专场</dd>
+											<dd>全场满2件8折/dd>
+										</dl>
+									</div>
+								</div>								
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="comingsoon">
+					<div class="comingsoon_title"></div>
+					<div class="comingsoon_body">
+						<div class="row">
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/11256.jpg" /><span>最高满299减80</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">专注母婴&nbsp;肌肤护理</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6355_std/59ca08039abb6_310_200.jpg?1506479083"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/10396.jpg" /><span>单罐低至159元</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">辣妈联欢惠</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/003/3325_std/59ca17ba21dee_310_200.jpg?1506508160"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/12802.jpg" /><span>子初满199减100</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">秋孕妈咪 &nbsp; 越孕越美丽</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/11256.jpg" /><span>最高满299减80</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">专注母婴&nbsp;肌肤护理</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6355_std/59ca08039abb6_310_200.jpg?1506479083"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/10396.jpg" /><span>单罐低至159元</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">辣妈联欢惠</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/003/3325_std/59ca17ba21dee_310_200.jpg?1506508160"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/12802.jpg" /><span>子初满199减100</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">秋孕妈咪 &nbsp; 越孕越美丽</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/11256.jpg" /><span>最高满299减80</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">专注母婴&nbsp;肌肤护理</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6355_std/59ca08039abb6_310_200.jpg?1506479083"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/10396.jpg" /><span>单罐低至159元</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">辣妈联欢惠</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/003/3325_std/59ca17ba21dee_310_200.jpg?1506508160"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/12802.jpg" /><span>子初满199减100</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">秋孕妈咪 &nbsp; 越孕越美丽</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/002/2745_std/59c89b26129ea_310_200.jpg?1506584246"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/11256.jpg" /><span>最高满299减80</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">专注母婴&nbsp;肌肤护理</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/006/6355_std/59ca08039abb6_310_200.jpg?1506479083"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/10396.jpg" /><span>单罐低至159元</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">辣妈联欢惠</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<dl>
+									<dt><img src="http://p0.jmstatic.com/jmstore/image/000/003/3325_std/59ca17ba21dee_310_200.jpg?1506508160"/></dt>
+									<dd><img src="http://p0.jmstatic.com/brand/logo_180/12802.jpg" /><span>子初满199减100</span></dd>
+								</dl>
+								<div class="stitle">
+									<span class="stitle-word">秋孕妈咪 &nbsp; 越孕越美丽</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
 
 		</section>
+		<!--底部-->
+		<footer>
+			<div class="footer_top ">
+				<div class="footer_top_credit ">
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_0901_01.png " />
+
+								<b>值得信赖美妆电商</b>
+								<span>四千万用户信赖</span>
+							</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_02.png " />
+								<b>成功在美上市</b>
+								<span>股票代码NYSE:JMEI</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_03.png " />
+
+								<b>品牌防伪码</b>
+								<span>支持品牌官网验真</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_04.png " />
+
+								<b>30天无理由退货</b>
+								<span>只要不满意无理由退货</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_05.png " />
+
+								<b>百万用户口碑</b>
+								<span>帮你只选对的,不选贵的</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_06.png " />
+
+								<b>订单闪电发货</b>
+								<span>1.5小时订单急速出库</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_07.png " />
+
+								<b>大牌明星推荐</b>
+								<span>打造精致明星脸</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_middle ">
+				<div class="sen clearfix ">
+					<ul class="clearfix ">
+						<li class="links ">服务保障</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">品牌真品防伪码</a>
+						</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">正品保证</a>
+						</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">30天无条件退货</a>
+						</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">7x24小时客服服务</a>
+						</li>
+						<li class="email ">总裁邮箱ceo@jumei.com</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">使用帮助</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">新手指南</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">常见问题</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">帮助中心</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">用户协议</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">支付方式</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">货到付款</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">在线支付</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">余额支付</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">现金券支付</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">配送方式</li>
+						<li>
+							<a href="# ">包邮政策</a>
+						</li>
+						<li>
+							<a href="# ">配送说明</a>
+						</li>
+						<li>
+							<a href="# ">运费说明</a>
+						</li>
+						<li>
+							<a href="# ">验货签收</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">售后服务</li>
+						<li>
+							<a href="# ">正品承诺</a>
+						</li>
+						<li>
+							<a href="# ">售后咨询</a>
+						</li>
+						<li>
+							<a href="# ">退货政策</a>
+						</li>
+						<li>
+							<a href="# ">退货办理</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">手机聚美</li>
+						<li><img src="img/未标题-1_11.png " /></li>
+						<li class="erwei ">下载移动客户端</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">聚美微信</li>
+						<li><img src="img/未标题-1_12.png " /></li>
+						<li class="erwei ">聚美官方微信</li>
+					</ul>
+				</div>
+			</div>
+			<div class="dy "></div>
+			<div class="footer_bag clearfix ">
+				<div class="footer_center clearfix ">
+					<div class="footer_link clearfix ">
+						<ul>
+							<li>
+								<a href="http://www.jumei.com/about/about_us?from=footer ">关于聚美优品</a>
+							</li>
+							<li>
+								<a href="http://ir.jumei.com/phoenix.zhtml?c=254160&p=irol-irhome ">INVESTOR RELATIONS</a>
+							</li>
+							<li>
+								<a href="http://partner.jumei.com/join/index?from=footer ">商家入驻</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/help/get_update?from=footer ">获取更新</a>
+							</li>
+							<li>
+								<a href="http://jumei.ihrscloud.com/outterSupport/about?from=footer&lang=zh ">加入聚美</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/i/market/cooperation?from=footer ">品牌合作专区</a>
+							</li>
+							<li>
+								<a href="http://cps.jumei.com/?from=footer ">网站联盟</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/about/news_center?from=footer ">媒体报道</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/about/business?from=footer ">商务合作</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_copy clearfix ">
+					<p>COPYRIGHT © 2010-2017 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。 客服热线：400-123-8888</p>
+					<p>京公网安备 11010102001226 |
+						<a href="# ">京ICP证111033号</a>| 食品流通许可证 SP1101051110165515（1-1）|
+						<a href="# ">营业执照</a>
+					</p>
+					<p>
+						<a href="# "><img src="img/未标题-1_02.png " /></a>
+						<a href="# "><img src="img/未标题-1_07.png " /></a>
+						<a href="# "><img src="img/未标题-1_08.png " /></a>
+						<a href="# "><img src="img/未标题-1_09.png " /></a>
+						<a href="# "><img src="img/未标题-1_10.png " /></a>
+					</p>
+				</div>
+			</div>
+		</footer>
 		<script type="text/javascript" src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
 		<script type="text/javascript" src="plugin/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/nav_right.js"></script>
 		<script type="text/javascript">
-			$(".nav_right>ul li").hover(function() {
-				$(".nav_right>ul .hit_w").hide().stop().css({
-					"margin-left": "-150px"
-				});
-				$()
-				//显示操作
-				$(this).find(".hit_w").fadeIn().animate({
-					"margin-left": "-100px"
-				}, 200);
-			}, function() {
-				//隐藏操作
-				$(this).find(".hit_w").animate({
-					"margin-left": "-150px"
-				}).fadeOut();
-			});
 		</script>
 	</body>
 
