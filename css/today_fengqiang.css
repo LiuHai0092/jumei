@@ -85,10 +85,11 @@
 	padding: 9px 10px;
 }
 
-.home_top_tab .home_bottom {
-	background: url(../img/54101_1920_80_001-web.jpg) no-repeat;
-	/*width: 1090px;*/
-	height: 85px;
-	margin-left: -390px;
+.home_bottom{
+	width: 1090px;
+	height: 80px;
+	background: url(http://p0.jmstatic.com/banner/2253/54101_1920_80_001-web.jpg?1456752238) top center no-repeat;
+	
+	
 }
 /*今日疯抢-end*/

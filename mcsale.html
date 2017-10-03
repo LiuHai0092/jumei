@@ -178,52 +178,56 @@
 						<a href=# " "></a>
 					</div>
 					<div class="col-md-7 ">
-						<div>
-							<form action="" method="get">
-								<input class="search " type="search " value=" " /><button class="searsub " type="submit " value="搜索 ">搜索</button></button>
-							</form>
-							<ul>
-								<li>
-									<a href="# ">保湿</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">面膜</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">洗面奶</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">蛋糕</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">香水</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">眼霜</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">口红</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">护肤套装</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">BB霜</a>
-								</li>
-								<li>|</li>
-								<li>
-									<a href=" ">咖啡</a>
-								</li>
-							</ul>
+						<!--<div>-->
+						<div class="search_box">
+							<input class="search " type="text" placeholder="请输入商品名" />
+							<button class="searsub " type="button">搜索</button>
+							<div class="his_search">
+								
+							</div>
 						</div>
+						<ul class="nav_search_ul">
+							<li>
+								<a href="# ">保湿</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">面膜</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">洗面奶</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">蛋糕</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">香水</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">眼霜</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">口红</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">护肤套装</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">BB霜</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">咖啡</a>
+							</li>
+						</ul>
+						<!--</div>-->
 					</div>
 					<div class="col-md-2 ">
 						<a href=" "><img src="img/cart.gif " />去购物车结算<span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span></a>
@@ -502,7 +506,7 @@
 						<div class="col-md-3">
 							<div class="edml_right_title">
 								<span>品牌预告FORESHOW</span>
-							</div>							
+							</div>
 							<div class="edml_right_body">
 								<div class="edml_right_day">日期</div>
 								<div class="row">
@@ -649,7 +653,7 @@
 											<dd>全场满2件8折/dd>
 										</dl>
 									</div>
-								</div>								
+								</div>
 							</div>
 
 						</div>
@@ -780,7 +784,7 @@
 			</div>
 
 		</section>
-		<!--底部-->
+		<!--底部-->						
 		<footer>
 			<div class="footer_top ">
 				<div class="footer_top_credit ">
@@ -997,10 +1001,16 @@
 				</div>
 			</div>
 		</footer>
+		<!--导入jquery包-->
 		<script type="text/javascript" src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
+		<!--导入bootstarp中js包-->
 		<script type="text/javascript" src="plugin/bootstrap/js/bootstrap.min.js"></script>
+		<!--导入cookie包-->
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<!--导航中的特效-->
 		<script type="text/javascript" src="js/nav_right.js"></script>
 		<script type="text/javascript">
+			
 		</script>
 	</body>
 

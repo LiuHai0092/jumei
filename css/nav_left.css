@@ -1,0 +1,62 @@
+/*左侧导航*/
+.nav_left {
+	width: 62px;
+	position: fixed;
+	top: 200px;
+	left: 25px;
+	z-index: 99;
+}
+
+.nav_left .every_day_must_look .ml_simg {
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background: url(http://a4.jmstatic.com/00ee6e4ce1a1f31f/pc_new.jpg) 0px 0px no-repeat;
+}
+
+.nav_left .every_day_new_thing .nt_simg {
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background: url(http://a4.jmstatic.com/00ee6e4ce1a1f31f/pc_new.jpg) 0px -122px no-repeat;
+}
+
+.nav_left .every_day_brand_together .bt_simg {
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background: url(http://a4.jmstatic.com/00ee6e4ce1a1f31f/pc_new.jpg) 0px -184px no-repeat;
+}
+
+.nav_left>ul>li {
+	text-align: center;
+	background-color: white;
+}
+
+.nav_left>ul>li:first-of-type {
+	width: 60px;
+	height: 60px;
+	background-color: #FE6397;
+}
+
+.nav_left>ul>li:first-of-type a span {
+	color: white;
+	position: relative;
+	top: 10px;
+}
+
+.nav_left>ul>li a span {
+	font-size: 14px;
+}
+
+.nav_left>ul>li:hover .ml_simg {
+	background: url(http://a4.jmstatic.com/00ee6e4ce1a1f31f/pc_new.jpg) -88px 0px no-repeat;
+}
+
+.nav_left>ul>li:hover .nt_simg {
+	background: url(http://a4.jmstatic.com/00ee6e4ce1a1f31f/pc_new.jpg) -88px -122px no-repeat;
+}
+
+.nav_left>ul>li:hover .bt_simg {
+	background: url(http://a4.jmstatic.com/00ee6e4ce1a1f31f/pc_new.jpg) -88px -184px no-repeat;
+}

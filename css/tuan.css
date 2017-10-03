@@ -1,21 +1,54 @@
 /*每日品牌团-begin*/
-section .tuan .row .col-md-2 strong {
-	font-size: 20px;
+
+section .tuan>.tuan_tit {	
+	width:1090px;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 2px solid black;
+}
+section .tuan>.tuan_tit>.tuan_tit_img{
+	display:inline-block ;
+	height: 24px;
+	width: 505px;
+	background: url(http://a4.jmstatic.com/eaca15a907581788/main_tit02_02.png) no-repeat;
+}
+section .tuan>.tuan_tit>a{
+	display: inline-block;
+	height: 26px;
+	width: 100px;
+	vertical-align: middle;
+	float: right;
+	margin-right: 50px;	
+		
+}
+section .tuan>.tuan_tit>a>img{
+	padding-right: 10px;
+}
+section .tuan {
+	width: 1090px;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
-section .tuan .row .col-md-2 a img {
-	padding: 0 10px;
+section .tuan>.row {
+	width: 100%;
+	overflow: hidden;
 }
 
-section .tuan .col-md-4 {
-	width: 258px;
+section .tuan>.row:first-of-type {
+	border-bottom: 2px solid black;
+}
+
+section .tuan>.row>.col-md-4 {
+	width: 270px;
 	height: 425px;
-	margin-left: 40px;
+	margin-left: 0px;
 	margin-top: 10px;
 }
 
 section .tuan .row .col-md-8 {
-	margin-left: 40px;
+	/*margin-left: 40px;*/
+	width: 820px;
 }
 
 section .tuan .col-md-6 {

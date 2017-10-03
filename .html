@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>lancom</title>
+	</head>
+	<link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<!--公共样式-->
+	<link href="css/public.css" rel="stylesheet" type="text/css" />
+	<!--右侧导航条-->
+	<link rel="stylesheet" href="css/nav_right.css" type="text/css" />
+	<!--头部样式-->
+	<link href="css/header.css" rel="stylesheet" type="text/css" />
+	<!--搜索样式-->
+	<link href="css/nav.css" rel="stylesheet" type="text/css" />
+	<!--底部样式-->
+	<link rel="stylesheet" href="css/footer.css" type="text/css" />
+	<style type="text/css">
+		header,
+		nav {
+			width: 1281px;
+			height: 26px;
+			margin: 0 auto;
+		}		
+		.lancom_bimg {
+			width: 1281px;
+			height: 150px;
+			background: url(http://p12.jmstatic.com/jmstore/image/000/003/3247_std/57a7fb5d654df_1920.jpg?1470626653919)center no-repeat
+		}
+		nav>.row{
+			width: 1281px;
+			height: 31px;			
+			background-color: #000000;
+		}
+		nav>.row .col-md-4:first-of-type{
+			text-align: right;			
+		}
+		
+		nav>.row .col-md-4:first-of-type span{
+			display: inline-block;
+			width: 99px;
+			height: 31px;
+			text-align: center;
+			line-height: 31px;
+		}
+		nav>.row .col-md-4:first-of-type span:first-of-type{
+			width: 70px;
+		}
+		nav>.row .col-md-4>span>a{			
+			font-size: 14px;			
+			color: white;			
+			letter-spacing: 3px;
+			
+		}
+		nav>.row .col-md-4>.Lancome{
+			display: inline-block;
+			width: 240px;
+			height: 31px;
+			color: white;
+			letter-spacing: 3px;
+			line-height: 31px;
+			position: relative;
+			text-align: center;
+		}
+		nav>.row .col-md-4:last-of-type span:last-of-type{
+			display: inline-block;
+			width: 52px;
+			height: 31px;
+			text-align: center;
+			margin-left: 20px;
+		}
+		nav>.row .col-md-4>.Lancome>div>.Lancome_ul{
+			width: 240px;
+			height: 65px;
+			position: absolute;
+			top: 35px;
+			left: 0px;
+			background-color: white;
+			border: 1px solid #E5E5E5;
+			text-align: center;
+		}
+		nav>.row .col-md-4>.Lancome>div>.Lancome_ul>li{
+			color: #333333;
+			font-size: 12px;
+		}
+		nav>.row .col-md-4>.Lancome>div>span{
+			position: absolute;
+			top: 26px;
+    		left: 70px;
+			color:#E5E5E5;
+		}
+		nav>.row .col-md-4>.Lancome>div{
+			display: none;
+			z-index: 20;
+		}
+		nav>.row .col-md-4>.Lancome:hover div{
+			display: block;
+		}
+		
+	</style>
+
+	<body>
+		<!--右侧导航-->
+		<div class="nav_right ">
+			<ul>
+				<li class="login">
+					<i class="login_i"></i>
+					<div class="login_div"><span class="sbig_two"></span>
+						<div class="login_div_close"><input type="image" value="" /></div>
+						<div class="row">
+							<div class="col-md-12"><img src="img/avatar_nonesign.jpg" /></div>
+
+						</div>
+
+						<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-md-6">你好！请
+								<a href="">登录</a> |
+								<a href="">注册</a>
+							</div>
+							<div class="col-md-3"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-12"><button type="button">我的订单</button><button type="button">我的收藏</button></div>
+
+						</div>
+					</div>
+				</li>
+				<li class="s_car">
+					<i class="s_car_i"></i><br/><span>购<br/>物<br/>车</span>
+					<div></div>
+				</li>
+				<li class="money">
+					<i class="money_i"></i>
+					<div class="hit_w"><span class="sbig"></span><span>我的财产</span></div>
+				</li>
+				<li class="wish">
+					<i class="wish_i"></i>
+					<div class="hit_w"><span class="sbig"></span><span>我的心愿单</span></div>
+				</li>
+				<li class="Footprints">
+					<i class="Footprints_i"></i>
+					<div class="hit_w"><span class="sbig"></span><span>我看过的</span></div>
+				</li>
+				<li class="QR_code">
+					<i class="QR_code_i"></i>
+					<div class="QR_code_img"><span class="QR_sbig"></span>
+						<img src="img/qrcode.png"></div>
+				</li>
+				<li class="service">
+					<i class="service_i"></i>
+					<div class="hit_w"><span class="sbig"></span><span>客服中心</span></div>
+				</li>
+			</ul>
+		</div>
+		<header>
+			<!--头部-->
+			<div class="row clearfix ">
+				<div class="col-md-3 ">
+					<ul class="top_nav_left ">
+						<li style="font-size: 14px;color: #6C6C6C; ">欢迎来到聚美！</li>
+						<li>
+							<a href="login.html">请登录</a>
+						</li>
+						<li>
+							<a href="registered.html">快速注册</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 "></div>
+				<div class="col-md-6 ">
+					<ul class="top_nav_right ">
+						<li>
+							<a href="# ">正品保证</a>
+						</li>
+						<li>
+							<a href="# ">订单查询</a>
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-heart " aria-hidden="true "></span>
+							<a href="# ">收藏的品牌</a>
+						</li>
+						<li>
+							<a href="# ">我的聚美</a><span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span>
+							<ul class="top_nav_right_one ">
+								<li>
+									<a href="# ">我的订单</a>
+								</li>
+								<li>
+									<a href="# ">我的现金劵</a>
+								</li>
+								<li>
+									<a href="# ">我的红包</a>
+								</li>
+								<li>
+									<a href="# ">我的余额</a>
+								</li>
+								<li>
+									<a href="# ">我的提现退款</a>
+								</li>
+								<li>
+									<a href="# ">我的收藏</a>
+								</li>
+								<li>
+									<a href="# ">我的心愿单</a>
+								</li>
+								<li>
+									<a href="# ">会员中心</a>
+								</li>
+								<li>
+									<a href="# ">礼品卡兑换</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a style="color:#ED155B ; " href="# "><span class="glyphicon glyphicon-phone " aria-hidden="true "></span>手机聚美</a>
+						</li>
+						<li>
+							<a href="# ">更多</a><span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span>
+							<ul class="top_nav_right_two ">
+								<li>
+									<a href="# ">邀请好友</a>
+								</li>
+								<li>
+									<a href="# ">加入收藏</a>
+								</li>
+								<li>
+									<a href="# ">新浪微博</a>
+								</li>
+								<li>
+									<a href="# ">聚美微信</a>
+								</li>
+								<li>
+									<a href="# ">百度贴吧</a>
+								</li>
+								<li>
+									<a href="# ">腾讯微博</a>
+								</li>
+								<li>
+									<a href="# ">人人公众主页</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<!--搜索框，购物车-->
+			<div class="nav_search clearfix ">
+				<div class="row " style="height: 120px; ">
+					<div class="col-md-3 ">
+						<a href=# " "></a>
+					</div>
+					<div class="col-md-7 ">
+						<!--<div>-->
+						<div class="search_box">
+							<input class="search " type="text" placeholder="请输入商品名" />
+							<button class="searsub " type="button">搜索</button>
+							<div class="his_search">
+
+							</div>
+						</div>
+						<ul class="nav_search_ul">
+							<li>
+								<a href="# ">保湿</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">面膜</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">洗面奶</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">蛋糕</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">香水</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">眼霜</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">口红</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">护肤套装</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">BB霜</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href=" ">咖啡</a>
+							</li>
+						</ul>
+						<!--</div>-->
+					</div>
+					<div class="col-md-2 ">
+						<a href=" "><img src="img/cart.gif " />去购物车结算<span class="glyphicon glyphicon-menu-down " aria-hidden="true "></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="lancom_bimg"></div>
+			<div class="row">
+				<div class="col-md-4">
+					<span><a href="">首页</a></span>
+					<span><a href="">全部商品</a></span>
+					<span><a href="">奢品美妆</a></span>				
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="Lancome">兰蔻(Lancome)聚美专卖店
+						<div>
+							<ul class="Lancome_ul">
+							<li> 兰蔻(Lancome)聚美专卖店</li>
+							<li> 所售商品正品保证,安全有效 </li>
+							</ul>
+							<span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+						</div>
+						
+					</div>
+					<span><a href=""><i class="glyphicon glyphicon-star" aria-hidden="true"></i>收藏</a></span>
+				</div>				
+			</div>
+		</nav>
+		<!--主体部分-->
+		<section>
+			
+		</section>
+		<!--导入jquery包-->
+		<script type="text/javascript" src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
+		<!--导入bootstarp中js包-->
+		<script type="text/javascript" src="plugin/bootstrap/js/bootstrap.min.js"></script>
+		<!--导入cookie包-->
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<!--导航中的特效-->
+		<script type="text/javascript" src="js/nav_right.js"></script>
+	</body>
+
+</html>
