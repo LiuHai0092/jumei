@@ -1,0 +1,173 @@
+/*导航*/
+
+.lancom_bimg {
+	width: 1281px;
+	height: 150px;
+	background: url(http://p12.jmstatic.com/jmstore/image/000/003/3247_std/57a7fb5d654df_1920.jpg?1470626653919)center no-repeat
+}
+
+nav>.row {
+	width: 1281px;
+	height: 31px;
+	background-color: #000000;
+}
+
+nav>.row .col-md-4:first-of-type {
+	text-align: right;
+}
+
+nav>.row .col-md-4:first-of-type span {
+	display: inline-block;
+	width: 99px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+}
+
+nav>.row .col-md-4:first-of-type span:first-of-type {
+	width: 70px;
+}
+
+nav>.row .col-md-4>span>a {
+	font-size: 14px;
+	color: white;
+	letter-spacing: 3px;
+}
+
+nav>.row .col-md-4>.Lancome {
+	display: inline-block;
+	width: 240px;
+	height: 31px;
+	color: white;
+	letter-spacing: 3px;
+	line-height: 31px;
+	position: relative;
+	text-align: center;
+}
+
+nav>.row .col-md-4:last-of-type span:last-of-type {
+	display: inline-block;
+	width: 52px;
+	height: 31px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+nav>.row .col-md-4>.Lancome>div>.Lancome_ul {
+	width: 240px;
+	height: 65px;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	background-color: white;
+	border: 1px solid #E5E5E5;
+	text-align: center;
+}
+
+nav>.row .col-md-4>.Lancome>div>.Lancome_ul>li {
+	color: #333333;
+	font-size: 12px;
+}
+
+nav>.row .col-md-4>.Lancome>div>span {
+	position: absolute;
+	top: 26px;
+	left: 70px;
+	color: #E5E5E5;
+}
+
+nav>.row .col-md-4>.Lancome>div {
+	display: none;
+	z-index: 20;
+}
+
+nav>.row .col-md-4>.Lancome:hover div {
+	display: block;
+}
+
+
+/*搜索*/
+
+section>.row>.col-md-3>.home_search,
+section>.row>.col-md-3>.classification,
+section>.row>.col-md-3>.byeffect,
+section>.row>.col-md-3>.byseries,
+section>.row>.col-md-3>.byranking {
+	width: 189px;
+	margin: 0 auto;
+	border: 1px solid #e0dacc;
+	margin-bottom: 10px;
+}
+
+section>.row>.col-md-3>.home_search>h5,
+section>.row>.col-md-3>.classification>h5,
+section>.row>.col-md-3>.byeffect>h5,
+section>.row>.col-md-3>.byseries>h5,
+section>.row>.col-md-3>.byranking>h5 {
+	background-color: black;
+	height: 30px;
+	color: white;
+	position: relative;
+	top: -10px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+section>.row>.col-md-3>.home_search>.search_box,
+section>.row>.col-md-3>.byeffect>.byeffect_ul,
+section>.row>.col-md-3>.byseries>.byseries_ul {
+	position: relative;
+	top: -10px;
+}
+
+section>.row>.col-md-3>.home_search>.search_box>input {
+	width: 108px;
+	vertical-align: middle;
+	font-size: 14px;
+	margin: 0 5px;
+	height: 28px;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+section>.row>.col-md-3>.home_search>.search_box>button {
+	display: inline-block;
+	width: 60px;
+	height: 28px;
+	border: 1px solid #CBCBCB;
+	letter-spacing: 6px;
+	font-size: 12px;
+	text-align: center;
+	color: #777777;
+}
+
+section>.row>.col-md-3>.home_search>.search_tsh {
+	margin-bottom: 10px;
+}
+
+section>.row>.col-md-3>.home_search>.search_tsh>a {
+	margin: 0 5px;
+}
+
+section>.row>.col-md-3>.home_search>.search_box>.his_search {
+	position: absolute;
+	top: 26px;
+	left: 5px;
+	width: 108px;
+	height: 50px;
+	background-color: #f8f8f8;
+	text-align: left;
+	margin-top: 2px;
+	display: none;
+	z-index: 20px;
+	border: 1px solid red;
+}
+
+section>.row>.col-md-3>.home_search>.search_box>.his_search span {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin: 5px;
+}

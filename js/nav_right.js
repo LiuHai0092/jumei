@@ -15,7 +15,7 @@ $(".nav_right>ul li").hover(function() {
 	}).fadeOut();
 });
 //搜索框的下拉效果
-$(function() {
+//$(function() {
 	var his_cookie = $.cookie("HIS_COOKIE");
 	if(his_cookie != null) {
 		var his = his_cookie.split(",");
@@ -46,5 +46,5 @@ $(function() {
 			//						alert(his_cookie);
 			$.cookie("HIS_COOKIE", his_cookie);
 		}
-	})
-});
+	});
+//});
