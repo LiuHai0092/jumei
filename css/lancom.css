@@ -171,3 +171,249 @@ section>.row>.col-md-3>.home_search>.search_box>.his_search span {
 	background: #fff;
 	margin: 5px;
 }
+
+header,
+nav {
+	width: 1281px;
+	margin: 0 auto;
+}
+
+section>.row {
+	width: 1090px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+}
+
+section>.row>.col-md-3 {
+	width: 210px;
+}
+
+section>.row>.col-md-9 {
+	width: 880px;
+	/*border: 1px solid #e0dacc;*/
+}
+
+section>.row>.col-md-3>.classification>.classification_ul>.title {
+	padding-left: 15px;
+	border-bottom: 1px solid #e0dacc;
+}
+
+section>.row>.col-md-3>.classification>.classification_ul .title:last-of-type {
+	border-bottom: none;
+}
+
+section>.row>.col-md-3>.classification>.classification_ul>.title>h5,
+section>.row>.col-md-3>.classification>.classification_ul>.title>h5>a {
+	cursor: pointer;
+	font-size: 14px;
+}
+
+section>.row>.col-md-3>.classification>.classification_ul>.title>h5>span,
+section>.row>.col-md-3>.classification>.classification_ul>.title>h5>i {
+	color: #EB1157;
+	font-size: 10px;
+	margin-right: 5px;
+	transition: all 0.2s ease-in-out;
+}
+
+section>.row>.col-md-3>.classification>.classification_ul>.title>ul {
+	/*position: relative;
+			left: 0px;
+			border-top: 1px dotted #e0dacc;*/
+	display: none;
+	margin-bottom: 5px;
+}
+
+section>.row>.col-md-3>.classification>.classification_ul>.title>ul>li {
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+section>.row>.col-md-3>.classification>.classification_ul>.title:hover h5 {
+	text-decoration: underline;
+	color: #EB1157;
+}
+
+
+/*span{
+			transform: rotate(90deg) scale(1);
+		}*/
+
+section>.row>.col-md-3>.byeffect>.byeffect_ul>li,
+section>.row>.col-md-3>.byseries>.byseries_ul>li {
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+
+section>.row>.col-md-3>.byranking>.byranking_ul>li>a>img {
+	width: 43px;
+	height: 43px;
+}
+
+section>.row>.col-md-3>.byranking>.byranking_ul>li {
+	position: relative;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+section>.row>.col-md-3>.byranking>.byranking_ul>li>div {
+	position: absolute;
+	top: 0px;
+	left: 57px;
+}
+
+section>.row>.col-md-3>.byranking>.byranking_ul>li>.byranking_bimg {
+	z-index: 20;
+	display: none;
+}
+
+section>.row>.col-md-3>.byranking>.byranking_ul>li>div>img {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	border: 1px solid #e0dacc;
+}
+
+section>.row>.col-md-3>.byranking>.byranking_ul .byranking_prices {
+	color: #EB1157;
+}
+
+section>.row>.col-md-9>.row>.col-md-4 {
+	width: 290px;
+}
+
+section>.row>.col-md-9>.row>.col-md-4>dl {
+	width: 282px;
+	margin: 0 auto;
+}
+
+section>.row>.col-md-9 div:last-of-type {
+	margin-bottom: 50px;
+}
+
+section>.row>.col-md-9>.caizhuan_tit {
+	width: 863px;
+	height: 58px;
+	background-color: #EB1157;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+
+section>.row>.col-md-9>.caizhuan_tit>h2 {
+	display: inline-block;
+	/*width: 108px;*/
+	height: 56px;
+	position: relative;
+	top: -10px;
+	left: 0px;
+}
+
+section>.row>.col-md-9>.caizhuan_tit>h2>a {
+	display: inline-block;
+	font-size: 22px;
+	color: white;
+	text-indent: 20px;
+}
+
+section>.row>.col-md-9>.caizhuan_tit>h6 {
+	display: inline-block;
+	width: 62px;
+	height: 56px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+section>.row>.col-md-9>.caizhuan_tit>h6>a {
+	font-size: 16px;
+	color: white;
+}
+
+.lancom_body_left>dt>a>img {
+	width: 255px;
+	height: 255px;
+}
+
+.lancom_body_left>dd {
+	margin: 5px 0;
+	padding-left: 8px;
+}
+
+.lancom_body_left>dd>a>em {
+	color: #EB1157;
+	font-size: 16px;
+}
+
+.lancom_body_left>dd:nth-of-type(2) {
+	color: #EB1157;
+	font-size: 20px;
+}
+
+.lancom_body_left>dd:nth-of-type(3) {
+	font-size: 12px;
+	color: #787878;
+}
+
+.lancom_body_left>dd:nth-of-type(3)>i {
+	display: inline-block;
+	width: 60px;
+	height: 10px;
+	background: url(http://f1.jmstatic.com/static_ofs/dist/20170215/images/search/sou_iconx2.png)repeat;
+	margin-left: 6px;
+}
+
+.lancom_body_left>dd:nth-of-type(4) a:first-of-type {
+	display: inline-block;
+	width: 90px;
+	height: 28px;
+	background-color: #EB1157;
+	color: white;
+	text-align: center;
+	line-height: 28px;
+}
+
+.lancom_body_left>dd:nth-of-type(4) a:last-of-type {
+	display: inline-block;
+	width: 80px;
+	height: 28px;
+	margin-left: 5px;
+	border: 1px solid #e0dacc;
+	position: relative;
+	top: 2px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.lancom_body_left>dd:nth-of-type(4)>a>i {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(http://f1.jmstatic.com/static_ofs/dist/20170215/images/search/sou_iconx2.png)0px -10px no-repeat;
+	margin-right: 5px;
+}
+
+.lancom_body_left>dd:last-of-type {
+	display: none;
+}
+
+.lancom_body_left>dd:last-of-type>span {
+	display: inline-block;
+	width: 60px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	border: 1px solid #e0dacc;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.lancom_body_left>dd:last-of-type span:last-of-type {
+	width: 36px;
+}
+
+section>.row>.col-md-9>.row>.col-md-4>dl:hover dd:last-of-type {
+	display: block;
+}

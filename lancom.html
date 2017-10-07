@@ -18,247 +18,7 @@
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/lancom.css" type="text/css" />
 	<style type="text/css">
-		header,
-		nav {
-			width: 1281px;
-			margin: 0 auto;
-		}
 		
-		section>.row {
-			width: 1100px;
-			margin: 0 auto;
-			border: 1px solid red;
-			margin-top: 20px;
-		}
-		
-		section>.row>.col-md-3 {
-			width: 210px;
-		}
-		
-		section>.row>.col-md-9 {
-			width: 888px;
-			border: 1px solid #e0dacc;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul>.title {
-			padding-left: 15px;
-			border-bottom: 1px solid #e0dacc;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul .title:last-of-type {
-			border-bottom: none;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul>.title>h5,
-		section>.row>.col-md-3>.classification>.classification_ul>.title>h5>a {
-			cursor: pointer;
-			font-size: 14px;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul>.title>h5>span,
-		section>.row>.col-md-3>.classification>.classification_ul>.title>h5>i {
-			color: #EB1157;
-			font-size: 10px;
-			margin-right: 5px;
-			transition: all 0.2s ease-in-out;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul>.title>ul {
-			/*position: relative;
-			left: 0px;
-			border-top: 1px dotted #e0dacc;*/
-			display: none;
-			margin-bottom: 5px;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul>.title>ul>li {
-			padding-bottom: 5px;
-			padding-left: 15px;
-		}
-		
-		section>.row>.col-md-3>.classification>.classification_ul>.title:hover h5 {
-			text-decoration: underline;
-			color: #EB1157;
-		}
-		/*span{
-			transform: rotate(90deg) scale(1);
-		}*/
-		
-		section>.row>.col-md-3>.byeffect>.byeffect_ul>li,
-		section>.row>.col-md-3>.byseries>.byseries_ul>li {
-			padding-left: 25px;
-			padding-bottom: 5px;
-		}
-		
-		section>.row>.col-md-3>.byranking>.byranking_ul>li>a>img {
-			width: 43px;
-			height: 43px;
-		}
-		
-		section>.row>.col-md-3>.byranking>.byranking_ul>li {
-			position: relative;
-			padding-left: 10px;
-			padding-bottom: 15px;
-		}
-		
-		section>.row>.col-md-3>.byranking>.byranking_ul>li>div {
-			position: absolute;
-			top: 0px;
-			left: 57px;
-		}
-		
-		section>.row>.col-md-3>.byranking>.byranking_ul>li>.byranking_bimg {
-			z-index: 20;
-			display: none;
-		}
-		
-		section>.row>.col-md-3>.byranking>.byranking_ul>li>div>img {
-			display: inline-block;
-			width: 130px;
-			height: 130px;
-			border: 1px solid #e0dacc;
-		}
-		
-		section>.row>.col-md-3>.byranking>.byranking_ul .byranking_prices {
-			color: #EB1157;
-		}
-		
-		section>.row>.col-md-9>.row>.col-md-4 {
-			width: 290px;
-		}
-		
-		section>.row>.col-md-9>.row>.col-md-4>dl {
-			width: 282px;
-			margin: 0 auto;
-		}
-		section>.row>.col-md-9 div:last-of-type{
-			margin-bottom: 50px;
-		}
-		section>.row>.col-md-9>.caizhuan_tit {
-			width: 863px;
-			height: 58px;
-			background-color: #EB1157;
-			position: relative;
-			top: 0px;
-			left: 0px;
-			overflow: hidden;
-		}
-		
-		section>.row>.col-md-9>.caizhuan_tit>h2 {
-			display: inline-block;
-			width: 108px;
-			height: 56px;
-			position: relative;
-			top: -10px;
-			left: 0px;
-		}
-		
-		section>.row>.col-md-9>.caizhuan_tit>h2>a {
-			display: inline-block;
-			font-size: 22px;
-			color: white;
-			text-indent: 20px;
-		}
-		
-		section>.row>.col-md-9>.caizhuan_tit>h6 {
-			display: inline-block;
-			width: 62px;
-			height: 56px;		
-		
-			
-		}
-		
-		section>.row>.col-md-9>.caizhuan_tit>h6>a {
-			display: inline-block;
-			font-size: 16px;
-			color: white;
-		}
-		
-		.lancom_body_left>dt>a>img {
-			width: 255px;
-			height: 255px;
-		}
-		
-		.lancom_body_left>dd {
-			margin: 5px 0;
-			padding-left: 8px;
-		}
-		
-		.lancom_body_left>dd>a>em {
-			color: #EB1157;
-			font-size: 16px;
-		}
-		
-		.lancom_body_left>dd:nth-of-type(2) {
-			color: #EB1157;
-			font-size: 20px;
-		}
-		
-		.lancom_body_left>dd:nth-of-type(3) {
-			font-size: 12px;
-			color: #787878;
-		}
-		
-		.lancom_body_left>dd:nth-of-type(3)>i {
-			display: inline-block;
-			width: 60px;
-			height: 10px;
-			background: url(http://f1.jmstatic.com/static_ofs/dist/20170215/images/search/sou_iconx2.png)repeat;
-			margin-left: 6px;
-		}
-		
-		.lancom_body_left>dd:nth-of-type(4) a:first-of-type {
-			display: inline-block;
-			width: 90px;
-			height: 28px;
-			background-color: #EB1157;
-			color: white;
-			text-align: center;
-			line-height: 28px;
-		}
-		
-		.lancom_body_left>dd:nth-of-type(4) a:last-of-type {
-			display: inline-block;
-			width: 80px;
-			height: 28px;
-			margin-left: 5px;
-			border: 1px solid #e0dacc;
-			position: relative;
-			top: 2px;
-			text-align: center;
-			line-height: 28px;
-		}
-		
-		.lancom_body_left>dd:nth-of-type(4)>a>i {
-			display: inline-block;
-			width: 10px;
-			height: 10px;
-			background: url(http://f1.jmstatic.com/static_ofs/dist/20170215/images/search/sou_iconx2.png)0px -10px no-repeat;
-			margin-right: 5px;
-		}
-		
-		.lancom_body_left>dd:last-of-type {
-			display: none;
-		}
-		
-		.lancom_body_left>dd:last-of-type>span {
-			display: inline-block;
-			width: 60px;
-			height: 24px;
-			text-align: center;
-			line-height: 24px;
-			border: 1px solid #e0dacc;
-			font-size: 12px;
-			margin-right: 10px;
-		}
-		
-		.lancom_body_left>dd:last-of-type span:last-of-type {
-			width: 36px;
-		}
-		
-		section>.row>.col-md-9>.row>.col-md-4>dl:hover dd:last-of-type {
-			display: block;
-		}
 	</style>
 
 	<body>
@@ -845,7 +605,7 @@
 					<div class="row">
 						<div class="col-md-4" id="lancom_body">
 							<dl class="lancom_body_left">
-								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"</a></dt>
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
 								<dd>
 									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
 								</dd>
@@ -938,13 +698,13 @@
 						</div>					
 					</div>
 					<div class="caizhuan_tit clearfix">
-						<h2><a>彩妆系列</a></h2>
+						<h2><a>超值套组</a></h2>
 						<h6><a>更多&gt;&gt;</a></h6>
 					</div>
 					<div class="row">
 						<div class="col-md-4" id="lancom_body">
 							<dl class="lancom_body_left">
-								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"</a></dt>
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
 								<dd>
 									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
 								</dd>
@@ -1036,8 +796,523 @@
 							</dl>
 						</div>					
 					</div>
+					<div class="caizhuan_tit clearfix">
+						<h2><a>根源补养</a></h2>
+						<h6><a>更多&gt;&gt;</a></h6>
+					</div>
+					<div class="row">
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<!--<dl class="lancom_body_middle">-->
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">							
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>					
+					</div>
+					<div class="caizhuan_tit clearfix">
+						<h2><a>菁纯系列</a></h2>
+						<h6><a>更多&gt;&gt;</a></h6>
+					</div>
+					<div class="row">
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<!--<dl class="lancom_body_middle">-->
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">							
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>					
+					</div>
+					<div class="caizhuan_tit clearfix">
+						<h2><a>小黑瓶系列</a></h2>
+						<h6><a>更多&gt;&gt;</a></h6>
+					</div>
+					<div class="row">
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4" id="lancom_body">
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">
+							<!--<dl class="lancom_body_middle">-->
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>
+						<div class="col-md-4" id="lancom_body">							
+							<dl class="lancom_body_left">
+								<dt><a href=""><img src="http://p0.jmstatic.com/product/000/362/362169_std/362169_350_350.jpg"/></a></dt>
+								<dd>
+									<a href=""><em>包邮&nbsp;/&nbsp;</em> 法国•兰蔻 (Lancome)梦魅巨星璀璨睫毛膏01# 6.5g/ml </a>
+								</dd>
+								<dd>¥259</dd>
+								<dd>71篇评价|<i></i></dd>
+								<dd>
+									<a href="">加入购物车</a>
+									<a href=""><i></i>收藏</a>
+								</dd>
+								<dd><span>眼部造型</span><span>装扮</span></dd>
+							</dl>
+						</div>					
+					</div>
 				</div>
 		</section>
+		
+		<!--底部-->
+		<footer>
+			<div class="footer_top ">
+				<div class="footer_top_credit ">
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_0901_01.png " />
+
+								<b>值得信赖美妆电商</b>
+								<span>四千万用户信赖</span>
+							</a>
+						</li>
+
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_02.png " />
+								<b>成功在美上市</b>
+								<span>股票代码NYSE:JMEI</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_03.png " />
+
+								<b>品牌防伪码</b>
+								<span>支持品牌官网验真</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_04.png " />
+
+								<b>30天无理由退货</b>
+								<span>只要不满意无理由退货</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_05.png " />
+
+								<b>百万用户口碑</b>
+								<span>帮你只选对的,不选贵的</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_06.png " />
+
+								<b>订单闪电发货</b>
+								<span>1.5小时订单急速出库</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404 ">
+								<img src="img/footer_new_07.png " />
+
+								<b>大牌明星推荐</b>
+								<span>打造精致明星脸</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_middle ">
+				<div class="sen clearfix ">
+					<ul class="clearfix ">
+						<li class="links ">服务保障</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">品牌真品防伪码</a>
+						</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">正品保证</a>
+						</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">30天无条件退货</a>
+						</li>
+						<li>
+							<a href="http://sh.jumei.com/?from=hd404#brand_con ">7x24小时客服服务</a>
+						</li>
+						<li class="email ">总裁邮箱ceo@jumei.com</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">使用帮助</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">新手指南</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">常见问题</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">帮助中心</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/guidebook ">用户协议</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">支付方式</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">货到付款</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">在线支付</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">余额支付</a>
+						</li>
+						<li>
+							<a href="http://www.jumei.com/help/pay_cod ">现金券支付</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">配送方式</li>
+						<li>
+							<a href="# ">包邮政策</a>
+						</li>
+						<li>
+							<a href="# ">配送说明</a>
+						</li>
+						<li>
+							<a href="# ">运费说明</a>
+						</li>
+						<li>
+							<a href="# ">验货签收</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">售后服务</li>
+						<li>
+							<a href="# ">正品承诺</a>
+						</li>
+						<li>
+							<a href="# ">售后咨询</a>
+						</li>
+						<li>
+							<a href="# ">退货政策</a>
+						</li>
+						<li>
+							<a href="# ">退货办理</a>
+						</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">手机聚美</li>
+						<li><img src="img/未标题-1_11.png " /></li>
+						<li class="erwei ">下载移动客户端</li>
+					</ul>
+					<ul class="clearfix ">
+						<li class="links ">聚美微信</li>
+						<li><img src="img/未标题-1_12.png " /></li>
+						<li class="erwei ">聚美官方微信</li>
+					</ul>
+				</div>
+			</div>
+			<div class="dy "></div>
+			<div class="footer_bag clearfix ">
+				<div class="footer_center clearfix ">
+					<div class="footer_link clearfix ">
+						<ul>
+							<li>
+								<a href="http://www.jumei.com/about/about_us?from=footer ">关于聚美优品</a>
+							</li>
+							<li>
+								<a href="http://ir.jumei.com/phoenix.zhtml?c=254160&p=irol-irhome ">INVESTOR RELATIONS</a>
+							</li>
+							<li>
+								<a href="http://partner.jumei.com/join/index?from=footer ">商家入驻</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/help/get_update?from=footer ">获取更新</a>
+							</li>
+							<li>
+								<a href="http://jumei.ihrscloud.com/outterSupport/about?from=footer&lang=zh ">加入聚美</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/i/market/cooperation?from=footer ">品牌合作专区</a>
+							</li>
+							<li>
+								<a href="http://cps.jumei.com/?from=footer ">网站联盟</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/about/news_center?from=footer ">媒体报道</a>
+							</li>
+							<li>
+								<a href="http://www.jumei.com/about/business?from=footer ">商务合作</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_copy clearfix ">
+					<p>COPYRIGHT © 2010-2017 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。 客服热线：400-123-8888</p>
+					<p>京公网安备 11010102001226 |
+						<a href="# ">京ICP证111033号</a>| 食品流通许可证 SP1101051110165515（1-1）|
+						<a href="# ">营业执照</a>
+					</p>
+					<p>
+						<a href="# "><img src="img/未标题-1_02.png " /></a>
+						<a href="# "><img src="img/未标题-1_07.png " /></a>
+						<a href="# "><img src="img/未标题-1_08.png " /></a>
+						<a href="# "><img src="img/未标题-1_09.png " /></a>
+						<a href="# "><img src="img/未标题-1_10.png " /></a>
+					</p>
+				</div>
+			</div>
+		</footer>
 		<!--导入jquery包-->
 		<script type="text/javascript" src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
 		<!--导入bootstarp中js包-->
