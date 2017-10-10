@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bout_top {
+	width: 100%;
+	height: 242px;
+	background-color: #57214c;
+	/*position: absolute;*/
+	bottom: 0;
+	/*text-align: center;*/
+}
+
+.bout1_top {
+	width: 1000px;
+	height: 189px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	border-right: black;
+	background: #57214c
+}
+
+.zi_top ul {
+	background: #57214c
+}
+
+.zi_top ul p {
+	position: relative;
+	top: 60px;
+	left: 30px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.zi_top ul li {
+	position: relative;
+	top: 35px;
+	left: 170px;
+	padding: 5px 0;
+	list-style: none;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.zi1_top {
+	background: #57214c
+}
+
+.zi1_top ul p {
+	position: relative;
+	top: -15px;
+	left: 300px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.zi1_top ul li {
+	position: relative;
+	top: -40px;
+	left: 395px;
+	padding: 5px 0;
+	list-style: none;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.zi2_top ul p {
+	position: relative;
+	top: -90px;
+	left: 515px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.zi2_top {
+	background: #57214c
+}
+
+.zi2_top ul li {
+	position: relative;
+	top: -112px;
+	left: 615px;
+	padding: 5px 0;
+	list-style: none;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.zi3_top ul p {
+	position: relative;
+	top: -190px;
+	left: 740px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.zi3_top ul{
+	background: #f7f7f7;
+}
+.zi3_top ul span {
+	background: url(../img/footer_icon.png)no-repeat;
+}
+
+.zi3_top ul li {
+	position: relative;
+	top: -215px;
+	left: 905px;
+	padding: 5px 0;
+	list-style: none;
+	font-size: 12px;
+	color: #FFF;
+}
