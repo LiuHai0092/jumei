@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: whitesmoke;
+}
+/*.head{
+	width: 1349px;
+	height: 177px;
+	background: white;
+}
+.head_top{
+	width: 1349px;
+	height: 28px;
+	background: #9D9D9D;
+}
+.head_center{
+	width: 1349px;
+	height: 110px;
+	background: gainsboro;
+}
+.head_bottom{
+	width: 1349px;
+	height: 39px;
+	background: #000000;
+}*/
+.four_pics{
+	width: 984px;
+	height: 360px;
+	margin: 0 auto;
+}
+h2{
+	text-align: center;
+}
+#txt_everyday{
+	text-align: center;
+	line-height: 50px;
+}
+.p_1{
+	display: inline-block;
+	border-right: solid 1px black;
+	width: 155px;
+	height: 16px;
+	line-height: 16px;
+	
+}
+.everyday_goods{
+	margin: 0 auto;
+	width: 960px;
+	height: :3350px;
+	background: whitesmoke;
+	
+}
+.goods_link{
+	display: inline-block;
+	width: 800px;
+	height: 254px;
+	text-align: center;
+}
+.goods_txt{
+	display: inline-block;
+	width: 290px;
+	height: 198px;
+	position: relative;
+	top: -68px;
+	
+	background: white;
+	
+}
+.bottom_logo1{
+	display: inline-block;
+	width: 797px;
+	height: 28px;
+	background: rgba(1,1,1,0.4);
+	color: white;
+	position: relative;
+	top: -37px;
+	
+}
+.bottom_logo1 #explan{
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	line-height: 28px;
+	vertical-align: middle;
+}
+.bottom_logo1 #time{
+	display: inline-block;
+	width: 300px;
+	text-align: right;
+	line-height: 28px;
+	vertical-align: middle;
+	position: relative;
+	left: 180px;
+}
+.bottom_logo2{
+	display: inline-block;
+	width: 500px;
+	height: 28px;
+	background: rgba(174,174,174,0.7);
+	color: white;
+	position: relative;
+	top: -37px;
+	left: -4 px;
+	text-align: center;
+}
+.goods_pic{
+	display: inline-block;
+	width: 500px;
+	height: 254px;
+}
+.goods_logo{
+	
+}
+.goods_txt img{
+	width: 80px;
+	height: 40px;
+}
+.goods_p1{
+	display: inline-block;
+	width: 204px;
+	height: 42px;
+}
+.goods_p2{
+	display: inline-block;
+	width: 204px;
+	height: 28px;
+}
+.goods_p3{
+	display: inline-block;
+	width: 204px;
+	height: 50px;
+}
+.sp_logo{
+	width: 58px;
+	height: 58px;
+	display: block;
+	background: url(jm/trans_new.png) no-repeat -58px -31px;
+	position: relative;
+	left: -2px;
+	top: -210px;
+}
+#warning{
+	position: absolute;
+	left: 994px;
+	
+}
