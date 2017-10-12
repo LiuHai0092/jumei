@@ -2,9 +2,10 @@
 .nav_left {
 	width: 62px;
 	position: fixed;
-	top: 200px;
+	top: 150px;
 	left: 25px;
 	z-index: 99;
+	display: none;
 }
 
 .nav_left .every_day_must_look .ml_simg {

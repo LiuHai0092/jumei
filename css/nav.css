@@ -1,5 +1,6 @@
 	/*导航 -----begin*/
 	/*搜索*/
+	
 	.nav_search .col-md-3>a:first-of-type {
 		background: url(../img/logo_new_v1.jpg) no-repeat top left;
 		display: block;
@@ -93,6 +94,7 @@
 		margin-right: 10px;
 	}
 	/*导航*/
+	
 	.nav_center .col-md-8,
 	.nav_center .col-md-4 {
 		height: 42px;
@@ -156,3 +158,63 @@
 		margin: 5px;
 	}
 	/*导航-end*/
+	/*美妆导航-begin*/
+	.meizhuangshop_body {
+		width: 1150px;
+		border: 1px solid #EDEDED;
+		overflow: hidden;
+		background-color: white;
+		margin-left: 80px;
+		z-index: 99;
+		display: none;
+		position: absolute;
+	}
+	
+	.meizhuangshop_body>.row {
+		margin-left: 0px;
+	}
+	
+	.meizhuangshop_body .row:first-of-type {
+		margin-top: 10px;
+	}
+	
+	.meizhuangshop_body .row:last-of-type {
+		margin-bottom: 10px;
+	}
+	
+	.meizhuangshop_body .row:first-of-type .img_a {
+		width: 254px;
+		height: 134px;
+		overflow: hidden;
+	}
+	
+	.meizhuangshop_body .row:first-of-type .img_a>img {
+		width: 254px;
+		height: 134px;
+		opacity: .8;
+	}
+	
+	.meizhuangshop_body .int_img {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		background: url(http://a2.jmstatic.com/cde042255421c907/new_header_icon.png) no-repeat;
+	}
+	
+	.meizhuangshop_body .int_img~a {
+		position: relative;
+		top: -12px;
+		margin-left: 10px;
+		font-size: 16px;
+		color: #000000;
+	}
+	
+	.meizhuangshop_body .inter>dd {
+		margin: 5px 0;
+	}
+	
+	.meizhuangshop_body .inter>dd>span {
+		margin: 0 7px;
+		font-size: 14px;
+	}

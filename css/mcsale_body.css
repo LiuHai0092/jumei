@@ -126,7 +126,16 @@
 	color: white;
 	line-height: 24px;
 }
-
+.everyday_must_look>.row .edml_left .time_box{
+	display: inline-block;
+	width: 200px;
+	height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	line-height: 24px;
+	float: right;
+}
 .everyday_must_look>.row .edml_left .new_icon {
 	position: absolute;
 	width: 58px;

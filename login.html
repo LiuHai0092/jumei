@@ -5,11 +5,11 @@
 		<meta charset="utf-8" />
 		<title>登录</title>
 		<link href="css/test.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="css/public.css" type="text/css"/>
+		<link rel="stylesheet" href="css/public.css" type="text/css" />
 	</head>
 
 	<body>
-		<div id="abb">
+		<div id="abb" class="clearfix">
 			<ul>
 				<li id="acc"><img src="img/logo_new_v1.jpg" /></li>
 				<li id="abc"></li>
@@ -29,46 +29,100 @@
 						<a href="registered.html">立即注册</a>
 					</div>
 
-					<div class="denglu"><input type="radio" checked name="sdf" />手机动态密码登录
-						<input type="radio" name="sdf" />普通登录</div>
-					<div class="user">
-						<input type="text" name="" id="" value="" placeholder="已注册的手机号码" />
+					<div class="denglu"><input type="radio" id="sjdl" name="sdf" checked="checked"/>手机动态密码登录
+						<input type="radio" name="sdf" id="ptdl" />普通登录</div>
+					<div id="denglu_div">
+
+						<div class="ptlogin">
+							<div class="user">
+								<input type="text" name="" id="" value="" placeholder="已注册的手机号码" />
+							</div>
+							<div class="password clearfix">
+								<input type="password" name="" placeholder="动态密码" /><span>获取手机动态密码</span>
+							</div>
+							<p><input type="checkbox" name="" id="" value=""  />&nbsp;自动登录</p>
+							<p><input type="button" name="" id="denglu" value="登 录" /></p>
+						</div>
+
+						<div class="shouji_login">
+
+							<div class="user">
+								<input type="text" name="" id="" value="" placeholder="已验证手机/邮箱/用户名" />
+							</div>
+							<div class="password clearfix">
+								<input type="password" name="" placeholder="密码" style="width: 230px;"/>
+							</div>
+							<p><input type="checkbox" name="" id="" value=""  />&nbsp;记住密码</p>
+							<p><input type="button" name="" id="denglu" value="登 录" /></p>
+						</div>
 					</div>
-					<div class="password clearfix">
-						<input type="password" name="" placeholder="动态密码" /><span>获取手机动态密码</span>
-					</div>
-					<p><input type="checkbox" name="" id="" value="" />&nbsp;记住密码</p>
-					<p><input type="button" name="" id="denglu" value="登 录" /></p>
 					<div class="wod">
 						<p>你也可以使用以下帐号登录</p>
+
 					</div>
-					<div>
+
+					<div style="position: relative; " class="clearfix">
 						<a href="https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=204650&redirect_uri=http%3A%2F%2Fpassport.jumei.com%2Fi%2Fextconnect%2Fcallback%3Fsite_name%3Dcb_qq%26plat_form%3Dwww%26redirect%3Dhttp%253A%252F%252Fsh.jumei.com%252F&state=9461774ee09aa412e576481e389b7fed&scope=get_user_info" class="biao"></a>
 						<a href="http://www.jumei.com/" class="biao1"></a>
 						<a href="http://www.jumei.com/" class="biao2"></a>
 						<a href="http://www.jumei.com/" class="biao3"></a>
 						<a href="http://www.jumei.com/" class="biao4"></a>
-
+						<span class="in" onclick="rui_top()">更多</span>
+						<!--<a href="http://www.jumei.com/" class="biao0"></a>-->
+						<div id="but">
+							<a href="http://www.jumei.com/" class="biao5"></a>
+							<a href="http://www.jumei.com/" class="biao6"></a>
+							<a href="http://www.jumei.com/" class="biao7"></a>
+							<a href="http://www.jumei.com/" class="biao8"></a>
+							<a href="http://www.jumei.com/" class="biao9"></a>
+						</div>
 					</div>
+					<script type="text/javascript">
+						var count = 0;
 
+						function rui_top() {
+							if(count % 2 == 0) {
+								document.getElementById("but").style.display = "none";
+							}
+							if(count % 2 != 0) {
+								document.getElementById("but").style.display = "block";
+							}
+							count++;
+						}
+					</script>
 				</div>
+
 				<div class="shadow_r">
 
 				</div>
 
 			</div>
-			<div class="mo">
-				<p>Copyright © 2010-2015 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888 </p>
-				<p>京公网安备 11010102001226 号 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照</p>
-			</div>
-			<div>
-				<a class="botten1"></a>
-				<a class="botten2"></a>
-				<a class="botten3"></a>
-				<a class="botten4"></a>
-				<a class="botten5"></a>
+		</div>
+<footer>
+		<div class="teil">
+			<p>Copyright © 2010-2015 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888 </p>
+			<p>京公网安备 11010102001226 号 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照</p>
+		</div>
+		<div class="footb">
+			<a href="#"><img src="img/底部1 .png" /></a>
+			<a href="#"><img src="img/底部2.png" /></a>
+			<a href="# "><img src="img/底部3 .png " /></a>
+			<a href="# "><img src="img/底部4.png " /></a>
+			<a href="# "><img src="img/底部5.png " /></a>
+		</div>
+</footer>
+		<script src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
+		<script>
+			$("#sjdl").click(function() {
+				$(".ptlogin").show();
+				$(".shouji_login").hide();
+			})
 
-			</div>
+			$("#ptdl").click(function() {
+				$(".ptlogin").hide();
+				$(".shouji_login").show();
+			})
+		</script>
 	</body>
 
 </html>

@@ -5,12 +5,12 @@
 		<meta charset="utf-8" />
 		<title>注册</title>
 		<link href="css/test.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="css/public.css" type="text/css"/>
+		<link rel="stylesheet" href="css/public.css" type="text/css" />
 	</head>
 
 	<body>
 		<div>
-			<div id="abb">
+			<div id="abb" class="clearfix">
 				<ul>
 					<li id="acc"><img src="img/logo_new_v1.jpg" /></li>
 					<li id="abc"></li>
@@ -47,24 +47,37 @@
 							<a href="http://www.jumei.com/help/user_terms">《聚美优品同意协议》</a>
 						</div>
 					</div>
+					
 					<div class="shadow_r">
 
 					</div>
 
 				</div>
-				<div class="mo">
-					<p>Copyright © 2010-2015 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888 </p>
-					<p>京公网安备 11010102001226 号 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照</p>
-				</div>
-				<div>
-					<a class="botten1"></a>
-					<a class="botten2"></a>
-					<a class="botten3"></a>
-					<a class="botten4"></a>
-					<a class="botten5"></a>
-
-				</div>
 			</div>
+			<div class="teil">
+				<p>Copyright © 2010-2015 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888 </p>
+				<p>京公网安备 11010102001226 号 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1） | 营业执照</p>
+			</div>
+			<div class="footb">
+				<a href="#"><img src="img/底部1 .png" /></a>
+				<a href="#"><img src="img/底部2.png" /></a>
+				<a href="# "><img src="img/底部3 .png " /></a>
+				<a href="# "><img src="img/底部4.png " /></a>
+				<a href="# "><img src="img/底部5.png " /></a>
+			</div>
+
+			<script src="plugin/bootstrap/jquery-2.2.4.min.js"></script>
+			<script>
+				$("#sjdl").click(function() {
+					$(".ptlogin").show();
+					$(".shouji_login").hide();
+				})
+
+				$("#ptdl").click(function() {
+					$(".ptlogin").hide();
+					$(".shouji_login").show();
+				})
+			</script>
 	</body>
 
 </html>

@@ -1,15 +1,3 @@
-
-.clearfix:before,
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.clearfix {
-	zoom: 1;
-}
-
 .shadow_l {
 	height: 418px;
 	width: 8px;
@@ -28,7 +16,7 @@
 }
 
 #acc {
-	width: 1000px;
+	width: 840px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -39,7 +27,7 @@
 	background: url(../img/header_corn_new_v2.png)-1px 70px no-repeat;
 	float: left;
 	position: relative;
-	left: 800px;
+	left: 700px;
 	top: -120px;
 }
 
@@ -49,7 +37,7 @@
 	background: url(../img/header_corn_new_v2.png)0px -32px no-repeat;
 	float: left;
 	position: relative;
-	left: 803px;
+	left: 712px;
 	top: -50px;
 }
 
@@ -59,25 +47,26 @@
 	background: url(../img/header_corn_new_v2.png)0px -65px no-repeat;
 	float: left;
 	position: relative;
-	left: 855px;
+	left: 760px;
 	top: -50px;
 }
 
 #tu {
-	width: 1100px;
-	height: 500px;
+	width: 980px;
+	height: 420px;
 	background: url(../img/loginPic.jpg) no-repeat;
 	float: left;
 	position: relative;
-	left: -220px;
-	bottom: -50px;
+	left: -50px;
+	bottom: -20px;
 }
 
 #kuang {
-	width: 346px;
+	width: 330px;
 	height: 418px;
 	float: right;
 	border: 1px solid #F7F7F7;
+	position: relative;
 }
 
 .kuang_top span:nth-of-type(1) {
@@ -110,7 +99,6 @@
 .user {
 	width: 270px;
 	margin-top: 10px;
-	margin-left: 34px;
 }
 
 .user input {
@@ -125,21 +113,28 @@
 .user1 {
 	width: 270px;
 	margin-top: 10px;
-	margin-left: 34px;
+	
 }
-
 .user1 input {
-	width: 262px;
+	width: 230px;
 	height: 40px;
 	border: 1px solid gainsboro;
-	font-size: 15px;
-	padding-left: 9px;
+	font-size: 15px;	
+
 }
+
+/*.ptlogin input,
+	.user1 input {
+		width: 262px;
+		height: 40px;
+		border: 1px solid gainsboro;
+		font-size: 15px;
+		padding-left: 9px;
+	}*/
 
 .password {
 	width: 270px;
-	margin-top: 20px;
-	margin-left: 34px;
+	margin-top: 10px;
 }
 
 .password input {
@@ -172,7 +167,7 @@
 }
 
 .password+p {
-	margin-left: 34px;
+	margin-left: 14px;
 	margin-top: 25px;
 	font-size: 12px;
 }
@@ -248,12 +243,81 @@
 
 .biao4 {
 	width: 42px;
-	height: 50px;
+	height: 33px;
 	background: url(../img/icon.jpg) -223px 0px no-repeat;
 	float: left;
 	position: relative;
 	left: 60px;
 	top: 0px;
+}
+
+.biao5 {
+	width: 42px;
+	height: 43px;
+	background: url(../img/icon.jpg) -222px -44px no-repeat;
+	float: left;
+	position: relative;
+	left: -10px;
+	top: -60px;
+}
+
+.biao6 {
+	width: 42px;
+	height: 43px;
+	background: url(../img/icon.jpg) -55px -45px no-repeat;
+	float: left;
+	position: relative;
+	left: 0px;
+	top: -60px;
+}
+
+.biao7 {
+	width: 42px;
+	height: 43px;
+	background: url(../img/icon.jpg) 0px -45px no-repeat;
+	float: left;
+	position: relative;
+	left: 10px;
+	top: -60px;
+}
+
+.biao8 {
+	width: 42px;
+	height: 43px;
+	background: url(../img/icon.jpg) -113px -45px no-repeat;
+	float: left;
+	position: relative;
+	left: 15px;
+	top: -60px;
+}
+
+.biao9 {
+	width: 42px;
+	height: 43px;
+	background: url(../img/icon.jpg) -170px -45px no-repeat;
+	float: left;
+	position: relative;
+	left: 195px;
+	top: -100px;
+}
+
+
+/*.biao0 {
+		width: 15px;
+		height: 40px;
+		background: url(../img/icon.jpg) -275px 0px no-repeat;
+		float: left;
+		position: absolute;
+		left: 960px;
+		top: 325px;
+	}*/
+
+#but {
+	width: 200px;
+	height: 45px;
+	position: absolute;
+	right: 100px;
+	top: 100px;
 }
 
 .mo {
@@ -317,4 +381,79 @@
 .botten5:hover {
 	display: block;
 	cursor: pointer;
+}
+
+.teil {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+	margin: 30px auto 0;
+	width: 1200px;
+}
+
+#abb {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.footb {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	margin: 10px auto 0;
+	text-align: center;
+}
+
+.in {
+	display: block;
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	color: red;
+	top: 10px;
+	cursor: pointer;
+}
+
+.ptlogin {
+	width: 300px;
+	height: 210px;
+	position: absolute;
+	top: 0px;
+}
+
+.zhan {
+	display: block;
+	width: 300px;
+	height: 43px;
+	position: relative;
+	left: 24px;
+	top: 109px;
+}
+
+.mi {
+	width: 300px;
+	height: 300px;
+}
+
+
+/*登录框*/
+
+#denglu_div {
+	position: relative;
+	width: 300px;
+	height: 210px;
+	margin: 0px auto;
+}
+
+.shouji_login {
+	width: 300px;
+	height: 210px;
+	position: absolute;
+	top: 0px;
+	display: none;
+}
+
+footer {
+	margin-top: 100px;
 }

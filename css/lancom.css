@@ -62,6 +62,7 @@ nav>.row .col-md-4>.Lancome>div>.Lancome_ul {
 	background-color: white;
 	border: 1px solid #E5E5E5;
 	text-align: center;
+	z-index: 99;
 }
 
 nav>.row .col-md-4>.Lancome>div>.Lancome_ul>li {
@@ -78,7 +79,7 @@ nav>.row .col-md-4>.Lancome>div>span {
 
 nav>.row .col-md-4>.Lancome>div {
 	display: none;
-	z-index: 20;
+	z-index: 99;
 }
 
 nav>.row .col-md-4>.Lancome:hover div {
@@ -88,7 +89,7 @@ nav>.row .col-md-4>.Lancome:hover div {
 
 /*搜索*/
 
-section>.row>.col-md-3>.home_search,
+section>.row>.col-md-3>.home_search_small,
 section>.row>.col-md-3>.classification,
 section>.row>.col-md-3>.byeffect,
 section>.row>.col-md-3>.byseries,
@@ -99,7 +100,7 @@ section>.row>.col-md-3>.byranking {
 	margin-bottom: 10px;
 }
 
-section>.row>.col-md-3>.home_search>h5,
+section>.row>.col-md-3>.home_search_small>h5,
 section>.row>.col-md-3>.classification>h5,
 section>.row>.col-md-3>.byeffect>h5,
 section>.row>.col-md-3>.byseries>h5,
@@ -113,14 +114,14 @@ section>.row>.col-md-3>.byranking>h5 {
 	padding-left: 10px;
 }
 
-section>.row>.col-md-3>.home_search>.search_box,
+section>.row>.col-md-3>.home_search_small>.search_box_small,
 section>.row>.col-md-3>.byeffect>.byeffect_ul,
 section>.row>.col-md-3>.byseries>.byseries_ul {
 	position: relative;
 	top: -10px;
 }
 
-section>.row>.col-md-3>.home_search>.search_box>input {
+section>.row>.col-md-3>.home_search_small>.search_box_small>input {
 	width: 108px;
 	vertical-align: middle;
 	font-size: 14px;
@@ -131,7 +132,7 @@ section>.row>.col-md-3>.home_search>.search_box>input {
 	padding: 0 5px;
 }
 
-section>.row>.col-md-3>.home_search>.search_box>button {
+section>.row>.col-md-3>.home_search_small>.search_box_small>button {
 	display: inline-block;
 	width: 60px;
 	height: 28px;
@@ -142,15 +143,15 @@ section>.row>.col-md-3>.home_search>.search_box>button {
 	color: #777777;
 }
 
-section>.row>.col-md-3>.home_search>.search_tsh {
+section>.row>.col-md-3>.home_search_small>.search_tsh {
 	margin-bottom: 10px;
 }
 
-section>.row>.col-md-3>.home_search>.search_tsh>a {
+section>.row>.col-md-3>.home_search_small>.search_tsh>a {
 	margin: 0 5px;
 }
 
-section>.row>.col-md-3>.home_search>.search_box>.his_search {
+section>.row>.col-md-3>.home_search_small>.search_box_small>.his_search_small {
 	position: absolute;
 	top: 26px;
 	left: 5px;
@@ -164,7 +165,7 @@ section>.row>.col-md-3>.home_search>.search_box>.his_search {
 	border: 1px solid red;
 }
 
-section>.row>.col-md-3>.home_search>.search_box>.his_search span {
+section>.row>.col-md-3>.home_search_small>.search_box_small>.his_search_small span {
 	display: inline-block;
 	padding: 5px 10px;
 	border: 1px solid #ccc;
@@ -282,6 +283,11 @@ section>.row>.col-md-3>.byranking>.byranking_ul .byranking_prices {
 section>.row>.col-md-9>.row>.col-md-4 {
 	width: 290px;
 }
+
+/*.lancom_body_div {
+	border: 1px solid #e0dacc;
+	box-shadow: 5px 5px 3px 0px #e0dacc;
+}*/
 
 section>.row>.col-md-9>.row>.col-md-4>dl {
 	width: 282px;
